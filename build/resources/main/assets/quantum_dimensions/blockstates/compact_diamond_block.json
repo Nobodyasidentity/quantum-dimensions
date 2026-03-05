@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "quantum_dimensions:block/compact_diamond_block"
+    }
+  }
+}

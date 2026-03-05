@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "quantum_dimensions:block/the_correct_furnace"
+    },
+    "facing=east": {
+      "model": "quantum_dimensions:block/the_correct_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "quantum_dimensions:block/the_correct_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "quantum_dimensions:block/the_correct_furnace",
+      "y": 270
+    }
+  }
+}

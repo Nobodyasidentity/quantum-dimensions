@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/netherrack",
+    "up": "minecraft:block/furnace_top",
+    "north": "quantum_dimensions:block/the_correct_furnace_front_on",
+    "east": "quantum_dimensions:block/the_correct_furnace_side",
+    "south": "quantum_dimensions:block/the_correct_furnace_side",
+    "west": "quantum_dimensions:block/the_correct_furnace_side",
+    "particle": "minecraft:block/netherrack"
+  },
+  "render_type": "solid"
+}

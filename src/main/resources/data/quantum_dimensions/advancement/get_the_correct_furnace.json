@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "quantum_dimensions:the_correct_furnace"
+    },
+    "title": {
+      "translate": "advancements.get_the_correct_furnace.title"
+    },
+    "description": {
+      "translate": "advancements.get_the_correct_furnace.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_the_correct_furnace_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/mine_stone"
+}

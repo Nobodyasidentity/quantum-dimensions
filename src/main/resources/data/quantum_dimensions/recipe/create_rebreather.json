@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:redstone",
+    "b": "minecraft:dried_kelp",
+    "c": "minecraft:glass"
+  },
+  "result": {
+    "id": "quantum_dimensions:rebreather",
+    "count": 1
+  }
+}

@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	net/mcreator/quantumdimensions/mixin/LivingEntityMixin	I	lastHurtByPlayerMemoryTime	field_6238
+METHOD	net/mcreator/quantumdimensions/mixin/LivingEntityMixin	()Z	isAlwaysExperienceDropper	method_6071

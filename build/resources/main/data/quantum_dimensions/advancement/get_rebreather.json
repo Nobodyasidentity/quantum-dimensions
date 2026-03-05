@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "quantum_dimensions:rebreather"
+    },
+    "title": {
+      "translate": "advancements.get_rebreather.title"
+    },
+    "description": {
+      "translate": "advancements.get_rebreather.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_rebreather_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "quantum_dimensions:enter_the_27th_dimension"
+}

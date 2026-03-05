@@ -1,0 +1,114 @@
+{
+  "quantum_dimensions:recipes/create_rebreather": {
+    "criteria": {
+      "has_ingredient_0": "2026-03-02 20:10:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_the_correct_furnace": {
+    "criteria": {
+      "get_the_correct_furnace_0": "2026-03-02 20:10:16 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_compact_diamond_block": {
+    "criteria": {
+      "get_compact_diamond_block_0": "2026-03-02 20:10:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-02 20:07:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_tesseract": {
+    "criteria": {
+      "get_tesseract_0": "2026-03-02 20:10:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-03-02 20:09:08 +0100",
+      "minecraft:forest": "2026-03-02 20:07:19 +0100",
+      "minecraft:taiga": "2026-03-02 20:10:22 +0100",
+      "minecraft:river": "2026-03-02 20:10:51 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:recipes/uncreatecompactdiamondblock": {
+    "criteria": {
+      "has_ingredient_0": "2026-03-02 20:10:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_quantum_machine": {
+    "criteria": {
+      "get_quantum_machine_0": "2026-03-02 20:10:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-03-02 20:10:49 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

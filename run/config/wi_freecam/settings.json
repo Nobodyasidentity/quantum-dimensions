@@ -1,0 +1,13 @@
+{
+  "Apply input to": "Camera",
+  "Horizontal speed": 1.0,
+  "Vertical speed": 1.0,
+  "Scroll to change speed": true,
+  "Show speed in HackList": true,
+  "Initial position": "Above",
+  "Tracer": false,
+  "Tracer color": "#FFFFFF",
+  "Hide hand": true,
+  "Disable on damage": true,
+  "Exclude me from statistics": false
+}

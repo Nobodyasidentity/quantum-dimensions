@@ -1,0 +1,51 @@
+{
+  "quantum_dimensions:recipes/create_rebreather": {
+    "criteria": {
+      "has_ingredient_0": "2026-03-02 20:54:55 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_the_correct_furnace": {
+    "criteria": {
+      "get_the_correct_furnace_0": "2026-03-02 20:55:30 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_compact_diamond_block": {
+    "criteria": {
+      "get_compact_diamond_block_0": "2026-03-02 20:55:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-02 20:54:20 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_tesseract": {
+    "criteria": {
+      "get_tesseract_0": "2026-03-02 20:54:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2026-03-02 20:54:22 +0100"
+    },
+    "done": false
+  },
+  "quantum_dimensions:recipes/uncreatecompactdiamondblock": {
+    "criteria": {
+      "has_ingredient_0": "2026-03-02 20:55:19 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_quantum_machine": {
+    "criteria": {
+      "get_quantum_machine_0": "2026-03-02 20:55:22 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

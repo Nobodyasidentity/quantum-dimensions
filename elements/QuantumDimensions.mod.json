@@ -1,0 +1,11 @@
+{
+  "_fv": 83,
+  "_type": "tab",
+  "definition": {
+    "name": "Quantum Dimensions",
+    "icon": {
+      "value": "CUSTOM:Tesseract"
+    },
+    "showSearch": false
+  }
+}

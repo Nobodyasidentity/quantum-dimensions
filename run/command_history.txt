@@ -1,0 +1,50 @@
+/locate structure minecraft:village_plains
+/tp @s -464 ~ -464
+/kill @s
+/kill
+/tick freeze
+/kill
+/tick step
+/tick unfreeze
+/playsound minecraft:item.trident.thunder
+/playsound minecraft:entity.lightning_bolt.thunder
+/playsound minecraft:item.trident.thunder ambient @a
+/gamerule commandBlockOutput false
+/playsound minecraft:entity.blaze.death
+/playsound minecraft:entity.lightning_bolt.thunder player @a ~ ~ ~ 100 1 0
+/execute as @a run playsound minecraft:entity.lightning_bolt.thunder player @a ~ ~ ~ 100 1 0
+/execute as @a run playsound minecraft:entity.lightning_bolt.thunder player @s ~ ~ ~ 100 1 0
+/playsound minecraft:block.note_block.imitate.ender_dragon
+/playsound minecraft:entity.ender_dragon.ambient
+/playsound minecraft:entity.ender_dragon.death
+/playsound minecraft:entity.ender_dragon.growl
+/playsound minecraft:entity.ender_dragon.hurt
+/playsound minecraft:entity.ender_dragon.shoot
+/playsound minecraft:entity.parrot.imitate.ender_dragon
+/playsound minecraft:block.note_block.imitate.ender_dragon
+/playsound minecraft:entity.ender_dragon.ambient
+/playsound minecraft:entity.ender_dragon.growl
+/playsound minecraft:entity.ender_dragon.hurt
+/playsound minecraft:entity.ender_dragon.growl
+/kill @s
+/kill
+/advancement revoke @a everything
+/execute in minecraft:overworld run tp @s ~ ~ ~
+/advancement grant @a only quantum_dimensions:enter_the_27th_dimension
+/advancement grant Player706 only
+/advancement grant Player706 from quantum_dimensions:enter_the_27th_dimension
+/advancement grant Player706 everything
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/datapack create testpack1
+/datapack create testpack1 ["Just a test"]
+/datapack list available
+/datapack enable "file/testpack1"
+/reload
+/time set day
+/weather clear
+/effect clear

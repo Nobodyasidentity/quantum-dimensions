@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-03 13:05:03 +0100"
+    },
+    "done": true
+  },
+  "quantum_dimensions:get_tesseract": {
+    "criteria": {
+      "get_tesseract_0": "2026-03-03 13:06:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-03-03 13:05:04 +0100"
+    },
+    "done": false
+  },
+  "quantum_dimensions:get_quantum_machine": {
+    "criteria": {
+      "get_quantum_machine_0": "2026-03-03 13:05:08 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

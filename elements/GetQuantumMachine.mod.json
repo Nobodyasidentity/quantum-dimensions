@@ -1,0 +1,26 @@
+{
+  "_fv": 83,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "§lReality Meltdown",
+    "achievementDescription": "Once small enough, physics start to break down",
+    "achievementIcon": {
+      "value": "CUSTOM:QuantumMachine"
+    },
+    "background": "challenge.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "QuantumMachineRecipe"
+    ],
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:GetTesseract"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">9999</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:QuantumMachine</field></block></value></block></next></block></xml>"
+  }
+}
