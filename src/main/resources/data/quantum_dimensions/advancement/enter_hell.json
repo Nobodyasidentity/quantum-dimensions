@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "quantum_dimensions:hellrack"
+    },
+    "title": {
+      "translate": "advancements.enter_hell.title"
+    },
+    "description": {
+      "translate": "advancements.enter_hell.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "enter_hell_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "quantum_dimensions:hell"
+      }
+    },
+    "enter_hell_1": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "quantum_dimensions:hell"
+      }
+    }
+  },
+  "parent": "quantum_dimensions:get_quantum_machine"
+}

@@ -413,7 +413,7 @@
       "name": "Hell",
       "type": "dimension",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "hell",
       "metadata": {
         "files": [
@@ -456,6 +456,19 @@
           "src/main/java/net/mcreator/quantumdimensions/block/BeanSoupBlock.java",
           "src/main/resources/assets/quantum_dimensions/blockstates/bean_soup.json",
           "src/main/java/net/mcreator/quantumdimensions/fluid/BeanSoupFluid.java"
+        ]
+      },
+      "path": "~/hell"
+    },
+    {
+      "name": "EnterHell",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_hell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/advancement/enter_hell.json"
         ]
       },
       "path": "~/hell"
@@ -509,7 +522,9 @@
       "item.quantum_dimensions.hellrack": "Hellrack",
       "item.quantum_dimensions.bean_soup_bucket": "Bean Soup Bucket",
       "fluid.quantum_dimensions.bean_soup": "Bean Soup",
-      "block.quantum_dimensions.bean_soup": "Bean Soup"
+      "block.quantum_dimensions.bean_soup": "Bean Soup",
+      "advancements.enter_hell.title": "To Hell and back",
+      "advancements.enter_hell.descr": "Enter and exit Hell"
     }
   },
   "metadata": {

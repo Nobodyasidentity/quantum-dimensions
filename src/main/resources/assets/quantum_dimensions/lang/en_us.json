@@ -25,5 +25,7 @@
   "item.quantum_dimensions.hellrack": "Hellrack",
   "item.quantum_dimensions.bean_soup_bucket": "Bean Soup Bucket",
   "fluid.quantum_dimensions.bean_soup": "Bean Soup",
-  "block.quantum_dimensions.bean_soup": "Bean Soup"
+  "block.quantum_dimensions.bean_soup": "Bean Soup",
+  "advancements.enter_hell.title": "To Hell and back",
+  "advancements.enter_hell.descr": "Enter and exit Hell"
 }

@@ -55,6 +55,11 @@ public abstract class BeanSoupFluid extends FlowingFluid {
 		public Optional<SoundEvent> getEmptySound(FluidVariant variant) {
 			return Optional.of(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("item.bucket.empty_lava")));
 		}
+
+		@Override
+		public int getLuminance(FluidVariant variant) {
+			return 15;
+		}
 	};
 
 	@Override

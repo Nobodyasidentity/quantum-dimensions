@@ -10,6 +10,7 @@ import net.mcreator.quantumdimensions.init.QuantumDimensionsModFluids;
 
 public class BeanSoupBlock extends LiquidBlock {
 	public BeanSoupBlock(BlockBehaviour.Properties properties) {
-		super(QuantumDimensionsModFluids.BEAN_SOUP, properties.mapColor(MapColor.FIRE).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(QuantumDimensionsModFluids.BEAN_SOUP, properties.mapColor(MapColor.FIRE).strength(100f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 15).noCollission().noLootTable().liquid()
+				.pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 }
