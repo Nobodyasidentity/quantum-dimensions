@@ -224,7 +224,7 @@
       "name": "Rebreather",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "rebreather",
       "metadata": {
         "files": [
@@ -320,7 +320,7 @@
       "name": "CreateTheCorrectFurnace",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "create_the_correct_furnace",
       "metadata": {
         "files": [

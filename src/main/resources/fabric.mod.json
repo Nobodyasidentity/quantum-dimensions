@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "quantum_dimensions",
-  "version": "1.0.0",
+  "version": "0.0",
   "name": "Quantum Dimensions",
+  "description": "Travel to different dimensions and discover new op entities, blocks and items",
   "authors": [
     "Nobodyasidentity"
   ],
@@ -10,7 +11,7 @@
     "homepage": "https://nobodyasidentity.github.io",
     "sources": ""
   },
-  "license": "Not specified",
+  "license": "BSD-3-Clause license",
   "icon": "logo.png",
   "environment": "*",
   "entrypoints": {
