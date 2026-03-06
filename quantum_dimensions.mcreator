@@ -517,7 +517,8 @@
   "workspaceSettings": {
     "modid": "quantum_dimensions",
     "modName": "Quantum Dimensions",
-    "version": "1.0.0",
+    "version": "0.0",
+    "description": "Travel to different dimensions and discover new op entities, blocks and items",
     "author": "Nobodyasidentity",
     "websiteURL": "https://nobodyasidentity.github.io",
     "license": "Not specified",
