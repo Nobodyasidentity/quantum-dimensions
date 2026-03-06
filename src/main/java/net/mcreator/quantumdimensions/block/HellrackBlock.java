@@ -7,11 +7,16 @@ import net.minecraft.world.level.block.Block;
 
 public class HellrackBlock extends Block {
 	public HellrackBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.NETHERRACK).strength(1f, 0.4f));
+		super(properties.sound(SoundType.NETHERRACK).strength(1f, 0.4f).requiresCorrectToolForDrops());
+	}
+
+	@Override
+	public boolean propagatesSkylightDown(BlockState state) {
+		return true;
 	}
 
 	@Override
 	public int getLightBlock(BlockState state) {
-		return 15;
+		return 0;
 	}
 }

@@ -465,6 +465,7 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Hellrack",
       "~CUSTOM:CompactDiamondBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -474,6 +475,9 @@
     ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:BeanSoup"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Hellrack"
     ]
   },
   "tab_element_order": {},
