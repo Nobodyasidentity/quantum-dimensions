@@ -521,7 +521,7 @@
     "description": "Travel to different dimensions and discover new op entities, blocks and items",
     "author": "Nobodyasidentity",
     "websiteURL": "https://nobodyasidentity.github.io",
-    "license": "Not specified",
+    "license": "BSD-3-Clause license",
     "serverSideOnly": false,
     "modPicture": "pack",
     "requiredMods": [],
