@@ -172,7 +172,7 @@
       "name": "QuantumMachineRecipe",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "quantum_machine_recipe",
       "metadata": {
         "files": [

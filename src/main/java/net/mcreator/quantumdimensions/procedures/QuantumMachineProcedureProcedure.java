@@ -100,6 +100,21 @@ public class QuantumMachineProcedureProcedure {
 					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
+		} else if (Blocks.MAGMA_BLOCK.asItem() == item.getItem()) {
+			if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _serverLevel) {
+				ResourceKey<Level> destinationType11 = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("quantum_dimensions:hell"));
+				if (_player.level().dimension() == destinationType11)
+					return;
+				ServerLevel nextLevel11 = _serverLevel.getServer().getLevel(destinationType11);
+				if (nextLevel11 != null) {
+					_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
+					_player.teleportTo(nextLevel11, _player.getX(), _player.getY(), _player.getZ(), Set.of(), _player.getYRot(), _player.getXRot(), true);
+					_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
+					for (MobEffectInstance _effectinstance : _player.getActiveEffects())
+						_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance, false));
+					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
+				}
+			}
 		} else {
 			if (world instanceof ServerLevel _level) {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
