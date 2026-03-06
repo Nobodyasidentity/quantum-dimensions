@@ -1,3 +1,3 @@
-> # [Quantum Dimensions](https://modrinth.com/mod/quantum-dimensions)  
-> ![icon](src/main/resources/logo.png)  
+> # <a href="https://modrinth.com/mod/quantum-dimensions">Quantum Dimensions  
+> ![icon](src/main/resources/logo.png)</a>  
 > Travel to different dimensions and discover new op entities, blocks and items
