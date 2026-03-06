@@ -15,6 +15,7 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.quantumdimensions.item.TesseractItem;
 import net.mcreator.quantumdimensions.item.RebreatherItem;
 import net.mcreator.quantumdimensions.item.QuantumEraserItem;
+import net.mcreator.quantumdimensions.item.BeanSoupItem;
 import net.mcreator.quantumdimensions.QuantumDimensionsMod;
 
 import java.util.function.Function;
@@ -26,6 +27,8 @@ public class QuantumDimensionsModItems {
 	public static Item REBREATHER;
 	public static Item THE_CORRECT_FURNACE;
 	public static Item QUANTUM_ERASER;
+	public static Item HELLRACK;
+	public static Item BEAN_SOUP_BUCKET;
 
 	public static void load() {
 		COMPACT_DIAMOND_BLOCK = block(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK, "compact_diamond_block", new Item.Properties().rarity(Rarity.EPIC).fireResistant());
@@ -34,6 +37,8 @@ public class QuantumDimensionsModItems {
 		REBREATHER = register("rebreather", RebreatherItem::new);
 		THE_CORRECT_FURNACE = block(QuantumDimensionsModBlocks.THE_CORRECT_FURNACE, "the_correct_furnace");
 		QUANTUM_ERASER = register("quantum_eraser", QuantumEraserItem::new);
+		HELLRACK = block(QuantumDimensionsModBlocks.HELLRACK, "hellrack");
+		BEAN_SOUP_BUCKET = register("bean_soup_bucket", BeanSoupItem::new);
 	}
 
 	// Start of user code block custom items

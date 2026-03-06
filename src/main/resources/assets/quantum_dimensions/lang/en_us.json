@@ -21,5 +21,9 @@
   "advancements.get_rebreather.title": "Subnautica",
   "item.quantum_dimensions.quantum_eraser": "Quantum Eraser",
   "advancements.get_quantum_eraser.descr": "Get the Quantum Eraser",
-  "advancements.get_quantum_eraser.title": "Erasing Worlds"
+  "advancements.get_quantum_eraser.title": "Erasing Worlds",
+  "item.quantum_dimensions.hellrack": "Hellrack",
+  "item.quantum_dimensions.bean_soup_bucket": "Bean Soup Bucket",
+  "fluid.quantum_dimensions.bean_soup": "Bean Soup",
+  "block.quantum_dimensions.bean_soup": "Bean Soup"
 }

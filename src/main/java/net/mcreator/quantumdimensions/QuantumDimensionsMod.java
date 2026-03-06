@@ -34,6 +34,7 @@ public class QuantumDimensionsMod implements ModInitializer {
 		// End of user code block mod constructor
 		LOGGER.info("Initializing QuantumDimensionsMod");
 		QuantumDimensionsModTabs.load();
+		QuantumDimensionsModFluids.load();
 		QuantumDimensionsModBlocks.load();
 		QuantumDimensionsModBlockEntities.load();
 		QuantumDimensionsModItems.load();

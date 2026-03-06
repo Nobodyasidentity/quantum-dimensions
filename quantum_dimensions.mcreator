@@ -408,6 +408,57 @@
         ]
       },
       "path": "~/quantum_eraser"
+    },
+    {
+      "name": "Hell",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/dimension/hell.json",
+          "src/main/resources/data/quantum_dimensions/dimension_type/hell.json"
+        ]
+      },
+      "path": "~/hell"
+    },
+    {
+      "name": "Hellrack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hellrack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/items/hellrack.json",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/hellrack.json",
+          "src/main/resources/assets/quantum_dimensions/models/block/hellrack.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/hellrack.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/hellrack.json",
+          "src/main/java/net/mcreator/quantumdimensions/block/HellrackBlock.java"
+        ]
+      },
+      "path": "~/hell"
+    },
+    {
+      "name": "BeanSoup",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bean_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/models/item/bean_soup_bucket.json",
+          "src/main/resources/assets/quantum_dimensions/items/bean_soup_bucket.json",
+          "src/main/resources/assets/quantum_dimensions/models/block/bean_soup.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/BeanSoupItem.java",
+          "src/main/java/net/mcreator/quantumdimensions/block/BeanSoupBlock.java",
+          "src/main/resources/assets/quantum_dimensions/blockstates/bean_soup.json",
+          "src/main/java/net/mcreator/quantumdimensions/fluid/BeanSoupFluid.java"
+        ]
+      },
+      "path": "~/hell"
     }
   ],
   "variable_elements": [],
@@ -417,7 +468,12 @@
       "~CUSTOM:CompactDiamondBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Hellrack",
+      "~Blocks.NETHERRACK",
       "~Blocks.STONE#0"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:BeanSoup"
     ]
   },
   "tab_element_order": {},
@@ -445,12 +501,18 @@
       "advancements.get_rebreather.title": "Subnautica",
       "item.quantum_dimensions.quantum_eraser": "Quantum Eraser",
       "advancements.get_quantum_eraser.descr": "Get the Quantum Eraser",
-      "advancements.get_quantum_eraser.title": "Erasing Worlds"
+      "advancements.get_quantum_eraser.title": "Erasing Worlds",
+      "item.quantum_dimensions.hellrack": "Hellrack",
+      "item.quantum_dimensions.bean_soup_bucket": "Bean Soup Bucket",
+      "fluid.quantum_dimensions.bean_soup": "Bean Soup",
+      "block.quantum_dimensions.bean_soup": "Bean Soup"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModDimensions.java",
+      "src/main/resources/data/minecraft/tags/fluid/lava.json",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModFluids.java",
       "src/main/java/net/mcreator/quantumdimensions/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModMenus.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModScreens.java",
@@ -510,6 +572,10 @@
       },
       {
         "name": "quantum_eraser",
+        "children": []
+      },
+      {
+        "name": "hell",
         "children": []
       }
     ]

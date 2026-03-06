@@ -2,6 +2,7 @@ package net.mcreator.quantumdimensions;
 
 import net.mcreator.quantumdimensions.init.QuantumDimensionsModScreens;
 import net.mcreator.quantumdimensions.init.QuantumDimensionsModMenus;
+import net.mcreator.quantumdimensions.init.QuantumDimensionsModFluids;
 import net.mcreator.quantumdimensions.init.QuantumDimensionsModBlocksRenderers;
 
 import net.fabricmc.api.Environment;
@@ -15,6 +16,7 @@ public class QuantumDimensionsModClient implements ClientModInitializer {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		QuantumDimensionsModBlocksRenderers.clientLoad();
+		QuantumDimensionsModFluids.clientLoad();
 		QuantumDimensionsModScreens.clientLoad();
 		QuantumDimensionsModMenus.clientLoad();
 		// Start of user code block mod init

@@ -28,6 +28,8 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModItems.REBREATHER);
 					tabData.accept(QuantumDimensionsModBlocks.THE_CORRECT_FURNACE.asItem());
 					tabData.accept(QuantumDimensionsModItems.QUANTUM_ERASER);
+					tabData.accept(QuantumDimensionsModBlocks.HELLRACK.asItem());
+					tabData.accept(QuantumDimensionsModItems.BEAN_SOUP_BUCKET);
 				}).build());
 	}
 }
