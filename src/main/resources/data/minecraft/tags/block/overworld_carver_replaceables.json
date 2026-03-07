@@ -3,6 +3,7 @@
   "values": [
     "quantum_dimensions:hellrack",
     "minecraft:netherrack",
+    "minecraft:water",
     "minecraft:stone"
   ]
 }

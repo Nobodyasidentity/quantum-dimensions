@@ -29,5 +29,6 @@
   "advancements.enter_hell.title": "To Hell and back",
   "advancements.enter_hell.descr": "Enter and exit Hell",
   "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
-  "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman"
+  "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman",
+  "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean"
 }

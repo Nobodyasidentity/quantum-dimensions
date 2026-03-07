@@ -7,8 +7,8 @@
     "aba"
   ],
   "key": {
-    "a": "minecraft:cobblestone",
-    "b": "minecraft:netherrack"
+    "a": ["minecraft:cobblestone", "minecraft:cobbled_deepslate"],
+    "b": ["minecraft:netherrack", "quantum_dimensions:hellrack"]
   },
   "result": {
     "id": "quantum_dimensions:the_correct_furnace",

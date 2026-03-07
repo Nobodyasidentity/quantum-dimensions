@@ -170,7 +170,7 @@ public abstract class BeanSoupFluid extends FlowingFluid {
 		FluidVariantAttributes.register(QuantumDimensionsModFluids.BEAN_SOUP, fluidAttributes);
 		FluidVariantAttributes.register(QuantumDimensionsModFluids.FLOWING_BEAN_SOUP, fluidAttributes);
 		FluidRenderHandlerRegistry.INSTANCE.register(QuantumDimensionsModFluids.BEAN_SOUP, QuantumDimensionsModFluids.FLOWING_BEAN_SOUP,
-				new SimpleFluidRenderHandler(ResourceLocation.parse("quantum_dimensions:block/bean_soup"), ResourceLocation.parse("quantum_dimensions:block/bean_soup")));
+				new SimpleFluidRenderHandler(ResourceLocation.parse("quantum_dimensions:block/bean_soup"), ResourceLocation.parse("quantum_dimensions:block/bean_soup_flow")));
 	}
 
 	@Environment(EnvType.CLIENT)

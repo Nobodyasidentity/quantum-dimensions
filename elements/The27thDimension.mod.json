@@ -8,6 +8,9 @@
       },
       {
         "value": "ocean"
+      },
+      {
+        "value": "CUSTOM:CursedOcean"
       }
     ],
     "biomesInDimensionCaves": [
@@ -16,6 +19,9 @@
       },
       {
         "value": "ocean"
+      },
+      {
+        "value": "CUSTOM:CursedOcean"
       }
     ],
     "worldGenType": "Normal world gen",

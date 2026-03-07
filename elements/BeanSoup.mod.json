@@ -5,7 +5,7 @@
     "name": "Bean Soup",
     "bucketName": "Bean Soup Bucket",
     "textureStill": "bean_soup",
-    "textureFlowing": "bean_soup",
+    "textureFlowing": "bean_soup_flow",
     "textureRenderOverlay": "",
     "hasFog": false,
     "fogStartDistance": {

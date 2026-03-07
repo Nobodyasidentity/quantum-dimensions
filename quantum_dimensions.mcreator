@@ -488,6 +488,21 @@
         ]
       },
       "path": "~/hell"
+    },
+    {
+      "name": "CursedOcean",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_ocean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/worldgen/biome/cursed_ocean.json",
+          "src/main/resources/data/quantum_dimensions/worldgen/configured_feature/cursed_ocean_tree.json",
+          "src/main/resources/data/quantum_dimensions/worldgen/placed_feature/cursed_ocean_tree.json"
+        ]
+      },
+      "path": "~/the_27th_dimension"
     }
   ],
   "variable_elements": [],
@@ -498,6 +513,7 @@
       "~CUSTOM:CompactDiamondBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.WATER",
       "~CUSTOM:Hellrack",
       "~Blocks.NETHERRACK",
       "~Blocks.STONE#0"
@@ -545,7 +561,8 @@
       "advancements.enter_hell.title": "To Hell and back",
       "advancements.enter_hell.descr": "Enter and exit Hell",
       "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
-      "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman"
+      "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman",
+      "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean"
     }
   },
   "metadata": {
