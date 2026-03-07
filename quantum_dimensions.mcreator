@@ -472,6 +472,22 @@
         ]
       },
       "path": "~/hell"
+    },
+    {
+      "name": "ZombiePigman",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombie_pigman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/entity/ZombiePigmanEntity.java",
+          "src/main/resources/assets/quantum_dimensions/models/item/zombie_pigman_spawn_egg.json",
+          "src/main/resources/assets/quantum_dimensions/items/zombie_pigman_spawn_egg.json",
+          "src/main/java/net/mcreator/quantumdimensions/client/renderer/ZombiePigmanRenderer.java"
+        ]
+      },
+      "path": "~/hell"
     }
   ],
   "variable_elements": [],
@@ -491,6 +507,9 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Hellrack"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:ZombiePigman"
     ]
   },
   "tab_element_order": {},
@@ -524,7 +543,9 @@
       "fluid.quantum_dimensions.bean_soup": "Bean Soup",
       "block.quantum_dimensions.bean_soup": "Bean Soup",
       "advancements.enter_hell.title": "To Hell and back",
-      "advancements.enter_hell.descr": "Enter and exit Hell"
+      "advancements.enter_hell.descr": "Enter and exit Hell",
+      "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
+      "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman"
     }
   },
   "metadata": {
@@ -541,6 +562,8 @@
       "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModItems.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntities.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntityRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/ItemStackMixin.java",

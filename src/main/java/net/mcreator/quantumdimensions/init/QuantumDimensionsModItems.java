@@ -4,6 +4,7 @@
 package net.mcreator.quantumdimensions.init;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
@@ -29,6 +30,7 @@ public class QuantumDimensionsModItems {
 	public static Item QUANTUM_ERASER;
 	public static Item HELLRACK;
 	public static Item BEAN_SOUP_BUCKET;
+	public static Item ZOMBIE_PIGMAN_SPAWN_EGG;
 
 	public static void load() {
 		COMPACT_DIAMOND_BLOCK = block(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK, "compact_diamond_block", new Item.Properties().rarity(Rarity.EPIC).fireResistant());
@@ -39,6 +41,7 @@ public class QuantumDimensionsModItems {
 		QUANTUM_ERASER = register("quantum_eraser", QuantumEraserItem::new);
 		HELLRACK = block(QuantumDimensionsModBlocks.HELLRACK, "hellrack");
 		BEAN_SOUP_BUCKET = register("bean_soup_bucket", BeanSoupItem::new);
+		ZOMBIE_PIGMAN_SPAWN_EGG = register("zombie_pigman_spawn_egg", properties -> new SpawnEggItem(QuantumDimensionsModEntities.ZOMBIE_PIGMAN, properties));
 	}
 
 	// Start of user code block custom items
