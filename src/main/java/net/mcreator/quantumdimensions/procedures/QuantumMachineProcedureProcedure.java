@@ -1,12 +1,14 @@
 package net.mcreator.quantumdimensions.procedures;
 
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LightningBolt;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
@@ -17,11 +19,8 @@ import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
 import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket;
 import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
 import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
 
 import net.mcreator.quantumdimensions.init.QuantumDimensionsModMenus;
 import net.mcreator.quantumdimensions.init.QuantumDimensionsModItems;
@@ -117,8 +116,9 @@ public class QuantumMachineProcedureProcedure {
 			}
 		} else {
 			if (world instanceof ServerLevel _level) {
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"summon minecraft:lightning_bolt");
+				LightningBolt entityToSpawn_12 = EntityType.LIGHTNING_BOLT.create(_level, EntitySpawnReason.TRIGGERED);
+				entityToSpawn_12.snapTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));;
+				_level.addFreshEntity(entityToSpawn_12);
 			}
 		}
 		if (entity instanceof Player _player) {
