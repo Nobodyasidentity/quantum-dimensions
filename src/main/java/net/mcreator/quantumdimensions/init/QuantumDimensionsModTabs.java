@@ -31,6 +31,7 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModBlocks.HELLRACK.asItem());
 					tabData.accept(QuantumDimensionsModItems.BEAN_SOUP_BUCKET);
 					tabData.accept(QuantumDimensionsModItems.ZOMBIE_PIGMAN_SPAWN_EGG);
+					tabData.accept(QuantumDimensionsModItems.KNIV);
 				}).build());
 	}
 }

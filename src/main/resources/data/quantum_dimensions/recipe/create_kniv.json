@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:totem_of_undying",
+    "minecraft:diamond_sword"
+  ],
+  "result": {
+    "id": "quantum_dimensions:kniv",
+    "count": 1
+  }
+}

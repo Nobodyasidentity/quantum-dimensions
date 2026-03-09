@@ -503,6 +503,35 @@
         ]
       },
       "path": "~/the_27th_dimension"
+    },
+    {
+      "name": "Kniv",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kniv",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/items/kniv.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/kniv.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/KnivItem.java"
+        ]
+      },
+      "path": "~/kniv"
+    },
+    {
+      "name": "CreateKniv",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_kniv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/create_kniv.json",
+          "src/main/resources/data/quantum_dimensions/recipe/create_kniv.json"
+        ]
+      },
+      "path": "~/kniv"
     }
   ],
   "variable_elements": [],
@@ -526,6 +555,12 @@
     ],
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:ZombiePigman"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Kniv"
+    ],
+    "ITEMS:quantum_dimensions:kniv_repair_items": [
+      "~CUSTOM:CompactDiamondBlock"
     ]
   },
   "tab_element_order": {},
@@ -562,7 +597,8 @@
       "advancements.enter_hell.descr": "Enter and exit Hell",
       "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
       "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman",
-      "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean"
+      "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean",
+      "item.quantum_dimensions.kniv": "Kniv"
     }
   },
   "metadata": {
@@ -635,6 +671,10 @@
       },
       {
         "name": "hell",
+        "children": []
+      },
+      {
+        "name": "kniv",
         "children": []
       }
     ]
