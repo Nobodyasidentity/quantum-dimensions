@@ -8,12 +8,12 @@
       "registry_name": "compact_diamond_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/compact_diamond_block.json",
+          "src/main/java/net/mcreator/quantumdimensions/block/CompactDiamondBlockBlock.java",
           "src/main/resources/assets/quantum_dimensions/models/item/compact_diamond_block.json",
           "src/main/resources/assets/quantum_dimensions/models/block/compact_diamond_block.json",
-          "src/main/resources/assets/quantum_dimensions/items/compact_diamond_block.json",
           "src/main/resources/assets/quantum_dimensions/blockstates/compact_diamond_block.json",
-          "src/main/java/net/mcreator/quantumdimensions/block/CompactDiamondBlockBlock.java"
+          "src/main/resources/assets/quantum_dimensions/items/compact_diamond_block.json",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/compact_diamond_block.json"
         ]
       },
       "path": "~/compact_diamond_block"
@@ -36,9 +36,9 @@
       "registry_name": "tesseract",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/item/TesseractItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/tesseract.json",
           "src/main/resources/assets/quantum_dimensions/models/item/tesseract.json",
-          "src/main/resources/assets/quantum_dimensions/items/tesseract.json"
+          "src/main/java/net/mcreator/quantumdimensions/item/TesseractItem.java"
         ]
       },
       "path": "~/tesseract"
@@ -92,13 +92,13 @@
       "registry_name": "quantum_machine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/block/entity/QuantumMachineBlockEntity.java",
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/quantum_machine.json",
-          "src/main/resources/assets/quantum_dimensions/models/item/quantum_machine.json",
-          "src/main/resources/assets/quantum_dimensions/blockstates/quantum_machine.json",
-          "src/main/resources/assets/quantum_dimensions/models/block/quantum_machine.json",
           "src/main/java/net/mcreator/quantumdimensions/block/QuantumMachineBlock.java",
-          "src/main/resources/assets/quantum_dimensions/items/quantum_machine.json"
+          "src/main/resources/assets/quantum_dimensions/items/quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/models/block/quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/quantum_machine.json",
+          "src/main/java/net/mcreator/quantumdimensions/block/entity/QuantumMachineBlockEntity.java",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/quantum_machine.json"
         ]
       },
       "path": "~/quantum_machine"
@@ -111,9 +111,9 @@
       "registry_name": "quantum_machine_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/network/QuantumMachineGUIButtonMessage.java",
           "src/main/java/net/mcreator/quantumdimensions/client/gui/QuantumMachineGUIScreen.java",
-          "src/main/java/net/mcreator/quantumdimensions/world/inventory/QuantumMachineGUIMenu.java"
+          "src/main/java/net/mcreator/quantumdimensions/world/inventory/QuantumMachineGUIMenu.java",
+          "src/main/java/net/mcreator/quantumdimensions/network/QuantumMachineGUIButtonMessage.java"
         ]
       },
       "path": "~/quantum_machine"
@@ -161,9 +161,9 @@
       "registry_name": "the_27th_dimension",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/world/dimension/The27thDimensionDimension.java",
-          "src/main/resources/data/quantum_dimensions/dimension_type/the_27th_dimension.json",
-          "src/main/resources/data/quantum_dimensions/dimension/the_27th_dimension.json"
+          "src/main/java/net/mcreator/quantumdimensions/client/dimension/The27thDimensionDimensionEffects.java",
+          "src/main/resources/data/quantum_dimensions/dimension/the_27th_dimension.json",
+          "src/main/resources/data/quantum_dimensions/dimension_type/the_27th_dimension.json"
         ]
       },
       "path": "~/the_27th_dimension"
@@ -244,8 +244,8 @@
       "registry_name": "create_rebreather",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/advancement/recipes/create_rebreather.json",
-          "src/main/resources/data/quantum_dimensions/recipe/create_rebreather.json"
+          "src/main/resources/data/quantum_dimensions/recipe/create_rebreather.json",
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/create_rebreather.json"
         ]
       },
       "path": "~/rebreather"
@@ -258,12 +258,12 @@
       "registry_name": "the_correct_furnace",
       "metadata": {
         "files": [
-          "src/main/resources/assets/quantum_dimensions/items/the_correct_furnace.json",
           "src/main/java/net/mcreator/quantumdimensions/block/TheCorrectFurnaceBlock.java",
+          "src/main/resources/assets/quantum_dimensions/items/the_correct_furnace.json",
           "src/main/resources/assets/quantum_dimensions/models/block/the_correct_furnace.json",
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/the_correct_furnace.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/the_correct_furnace.json",
           "src/main/resources/assets/quantum_dimensions/blockstates/the_correct_furnace.json",
-          "src/main/resources/assets/quantum_dimensions/models/item/the_correct_furnace.json"
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/the_correct_furnace.json"
         ]
       },
       "path": "~/the_correct_furnace"
@@ -385,13 +385,13 @@
       "name": "QuantumEraser",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "quantum_eraser",
       "metadata": {
         "files": [
-          "src/main/resources/assets/quantum_dimensions/models/item/quantum_eraser.json",
           "src/main/resources/assets/quantum_dimensions/items/quantum_eraser.json",
-          "src/main/java/net/mcreator/quantumdimensions/item/QuantumEraserItem.java"
+          "src/main/java/net/mcreator/quantumdimensions/item/QuantumEraserItem.java",
+          "src/main/resources/assets/quantum_dimensions/models/item/quantum_eraser.json"
         ]
       },
       "path": "~/quantum_eraser"
@@ -431,11 +431,11 @@
       "registry_name": "hellrack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/quantum_dimensions/items/hellrack.json",
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/hellrack.json",
           "src/main/resources/assets/quantum_dimensions/models/block/hellrack.json",
-          "src/main/resources/assets/quantum_dimensions/blockstates/hellrack.json",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/hellrack.json",
           "src/main/resources/assets/quantum_dimensions/models/item/hellrack.json",
+          "src/main/resources/assets/quantum_dimensions/items/hellrack.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/hellrack.json",
           "src/main/java/net/mcreator/quantumdimensions/block/HellrackBlock.java"
         ]
       },
@@ -449,13 +449,13 @@
       "registry_name": "bean_soup",
       "metadata": {
         "files": [
-          "src/main/resources/assets/quantum_dimensions/models/item/bean_soup_bucket.json",
-          "src/main/resources/assets/quantum_dimensions/items/bean_soup_bucket.json",
+          "src/main/java/net/mcreator/quantumdimensions/fluid/BeanSoupFluid.java",
           "src/main/resources/assets/quantum_dimensions/models/block/bean_soup.json",
           "src/main/java/net/mcreator/quantumdimensions/item/BeanSoupItem.java",
           "src/main/java/net/mcreator/quantumdimensions/block/BeanSoupBlock.java",
-          "src/main/resources/assets/quantum_dimensions/blockstates/bean_soup.json",
-          "src/main/java/net/mcreator/quantumdimensions/fluid/BeanSoupFluid.java"
+          "src/main/resources/assets/quantum_dimensions/models/item/bean_soup_bucket.json",
+          "src/main/resources/assets/quantum_dimensions/items/bean_soup_bucket.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/bean_soup.json"
         ]
       },
       "path": "~/hell"
@@ -497,9 +497,9 @@
       "registry_name": "cursed_ocean",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/worldgen/biome/cursed_ocean.json",
           "src/main/resources/data/quantum_dimensions/worldgen/configured_feature/cursed_ocean_tree.json",
-          "src/main/resources/data/quantum_dimensions/worldgen/placed_feature/cursed_ocean_tree.json"
+          "src/main/resources/data/quantum_dimensions/worldgen/placed_feature/cursed_ocean_tree.json",
+          "src/main/resources/data/quantum_dimensions/worldgen/biome/cursed_ocean.json"
         ]
       },
       "path": "~/the_27th_dimension"
@@ -543,8 +543,6 @@
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.WATER",
-      "~CUSTOM:Hellrack",
-      "~Blocks.NETHERRACK",
       "~Blocks.STONE#0"
     ],
     "BLOCKS:minecraft:replaceable": [
@@ -553,15 +551,9 @@
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Hellrack"
     ],
-    "ENTITIES:minecraft:undead": [
-      "~CUSTOM:ZombiePigman"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:Kniv"
-    ],
-    "ITEMS:quantum_dimensions:kniv_repair_items": [
-      "~CUSTOM:CompactDiamondBlock"
-    ]
+    "ENTITIES:minecraft:undead": [],
+    "ITEMS:minecraft:swords": [],
+    "ITEMS:quantum_dimensions:kniv_repair_items": []
   },
   "tab_element_order": {},
   "language_map": {
@@ -603,39 +595,39 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModDimensions.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModDimensionsEffects.java",
       "src/main/resources/data/minecraft/tags/fluid/lava.json",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModFluids.java",
       "src/main/java/net/mcreator/quantumdimensions/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModMenus.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModScreens.java",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocks.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlockEntities.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModItems.java",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntities.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntityRenderers.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntities.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/quantumdimensions/mixin/BoneMealItemMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsMod.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/ItemEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
       "src/main/resources/META-INF/quantum_dimensions.classtweaker",
       "src/main/resources/quantum_dimensions.mixins.json",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsModClient.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/LivingEntityMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/BlockEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/event/PlayerEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
-      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsModClient.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModTabs.java",
-      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsMod.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/ItemEvents.java"
+      "src/main/java/net/mcreator/quantumdimensions/event/BlockEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java"
     ]
   },
   "foldersRoot": {
@@ -697,5 +689,5 @@
     "credits": "...",
     "modElementsPackage": "net.mcreator.quantumdimensions"
   },
-  "mcreatorVersion": 202600104117
+  "mcreatorVersion": 202600110319
 }

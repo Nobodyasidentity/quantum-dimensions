@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.util.Tuple;
+import net.minecraft.server.TickTask;
 
 import net.mcreator.quantumdimensions.init.*;
 
@@ -16,13 +16,16 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.api.EnvType;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.List;
-import java.util.Collection;
-import java.util.ArrayList;
+import java.util.Queue;
+import java.util.PriorityQueue;
+import java.util.Comparator;
 
 import java.lang.invoke.MethodType;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandle;
+
+import it.unimi.dsi.fastutil.ints.IntObjectPair;
+import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
 
 public class QuantumDimensionsMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger(QuantumDimensionsMod.class);
@@ -39,7 +42,6 @@ public class QuantumDimensionsMod implements ModInitializer {
 		QuantumDimensionsModBlocks.load();
 		QuantumDimensionsModBlockEntities.load();
 		QuantumDimensionsModItems.load();
-		QuantumDimensionsModDimensions.load();
 		QuantumDimensionsModMenus.load();
 		tick();
 		// Start of user code block mod init
@@ -48,22 +50,25 @@ public class QuantumDimensionsMod implements ModInitializer {
 
 	// Start of user code block mod methods
 	// End of user code block mod methods
-	private static final Collection<Tuple<Runnable, Integer>> workQueue = new ConcurrentLinkedQueue<>();
+	private static final Queue<IntObjectPair<Runnable>> workToBeScheduled = new ConcurrentLinkedQueue<>();
+	private static final PriorityQueue<TickTask> workQueue = new PriorityQueue<>(Comparator.comparingInt(TickTask::getTick));
 
-	public static void queueServerWork(int tick, Runnable action) {
-		workQueue.add(new Tuple<>(action, tick));
+	public static void queueServerWork(int delay, Runnable action) {
+		workToBeScheduled.add(new IntObjectImmutablePair<>(delay, action));
 	}
 
 	private void tick() {
 		ServerTickEvents.END_SERVER_TICK.register((server) -> {
-			List<Tuple<Runnable, Integer>> actions = new ArrayList<>();
-			workQueue.forEach(work -> {
-				work.setB(work.getB() - 1);
-				if (work.getB() == 0)
-					actions.add(work);
-			});
-			actions.forEach(e -> e.getA().run());
-			workQueue.removeAll(actions);
+			int currentTick = server.getTickCount();
+
+			IntObjectPair<Runnable> work;
+			while ((work = workToBeScheduled.poll()) != null) {
+				workQueue.add(new TickTask(currentTick + work.leftInt(), work.right()));
+			}
+
+			while (!workQueue.isEmpty() && currentTick >= workQueue.peek().getTick()) {
+				workQueue.poll().run();
+			}
 		});
 	}
 
