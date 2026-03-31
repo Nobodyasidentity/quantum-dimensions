@@ -11,3 +11,4 @@ Players must master complex quantum technology and construct powerful portals to
 ![Zombie Pigmen](https://cdn.modrinth.com/data/C994Zl1e/images/aa4e2141efe4c85ae990d8cd04eb6a7a864df104.png)
 ![Hell](https://cdn.modrinth.com/data/C994Zl1e/images/fc0bd8d6ce32fde4153cb1241c887fca1e3db862.png)
 ![water](https://cdn.modrinth.com/data/C994Zl1e/images/ebe04737ace44112bc657aee3ef5875827f8a553.png)
+![swimming underwater](https://cdn.modrinth.com/data/C994Zl1e/images/be9f8a6a6b87d961182b3350d16f68598cc1da44.png)
