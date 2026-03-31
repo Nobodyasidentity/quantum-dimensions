@@ -7,7 +7,7 @@
 Players must master complex quantum technology and construct powerful portals to navigate these new worlds, explore new structures and meet new challenging bosses and defeat them for tresures worth more than netherite.
 
 ## 🖼️ Gallery
-![some items](https://cdn.modrinth.com/data/C994Zl1e/images/fd40436b67d7bf4f086274f00668f8a700ecced2.png)
+![some items](https://cdn.modrinth.com/data/C994Zl1e/images/a211267c464a319d8cc088be2af7772c4d5e284f.png)
 ![Zombie Pigmen](https://cdn.modrinth.com/data/C994Zl1e/images/aa4e2141efe4c85ae990d8cd04eb6a7a864df104.png)
 ![Hell](https://cdn.modrinth.com/data/C994Zl1e/images/fc0bd8d6ce32fde4153cb1241c887fca1e3db862.png)
 ![water](https://cdn.modrinth.com/data/C994Zl1e/images/ebe04737ace44112bc657aee3ef5875827f8a553.png)
