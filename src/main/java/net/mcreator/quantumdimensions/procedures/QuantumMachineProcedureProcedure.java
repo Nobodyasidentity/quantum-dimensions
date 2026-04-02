@@ -21,6 +21,7 @@ import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
 import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.player.LocalPlayer;
 
 import net.mcreator.quantumdimensions.init.QuantumDimensionsModMenus;
 import net.mcreator.quantumdimensions.init.QuantumDimensionsModItems;
@@ -121,8 +122,8 @@ public class QuantumMachineProcedureProcedure {
 				_level.addFreshEntity(entityToSpawn_12);
 			}
 		}
-		if (entity instanceof Player _player) {
-			_player.containerMenu = _player.inventoryMenu;
+		if (entity instanceof LocalPlayer _player) {
+			_player.closeContainer();
 		}
 	}
 }

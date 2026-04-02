@@ -18,10 +18,10 @@ import net.mcreator.quantumdimensions.QuantumDimensionsMod;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 
 public class QuantumDimensionsModEntities {
-	public static EntityType<ZombiePigmanEntity> ZOMBIE_PIGMAN;
+	public static EntityType<ZombiePigmanEntity> ZOMBIE_PIGMAN = register("zombie_pigman",
+			EntityType.Builder.<ZombiePigmanEntity>of(ZombiePigmanEntity::new, MobCategory.MONSTER).clientTrackingRange(64).updateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
 
 	public static void load() {
-		ZOMBIE_PIGMAN = register("zombie_pigman", EntityType.Builder.<ZombiePigmanEntity>of(ZombiePigmanEntity::new, MobCategory.MONSTER).clientTrackingRange(64).updateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
 		init();
 		registerAttributes();
 	}

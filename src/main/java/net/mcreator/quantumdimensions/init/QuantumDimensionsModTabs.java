@@ -14,14 +14,12 @@ import net.minecraft.core.Registry;
 
 import net.mcreator.quantumdimensions.QuantumDimensionsMod;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-
 public class QuantumDimensionsModTabs {
 	public static ResourceKey<CreativeModeTab> TAB_QUANTUM_DIMENSIONS = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(QuantumDimensionsMod.MODID, "quantum_dimensions"));
 
 	public static void load() {
-		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_QUANTUM_DIMENSIONS,
-				FabricItemGroup.builder().title(Component.translatable("item_group.quantum_dimensions.quantum_dimensions")).icon(() -> new ItemStack(QuantumDimensionsModItems.TESSERACT)).displayItems((parameters, tabData) -> {
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_QUANTUM_DIMENSIONS, CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0).title(Component.translatable("item_group.quantum_dimensions.quantum_dimensions"))
+				.icon(() -> new ItemStack(QuantumDimensionsModItems.TESSERACT)).displayItems((parameters, tabData) -> {
 					tabData.accept(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK.asItem());
 					tabData.accept(QuantumDimensionsModItems.TESSERACT);
 					tabData.accept(QuantumDimensionsModBlocks.QUANTUM_MACHINE.asItem());
