@@ -1,6 +1,7 @@
 > # [Quantum Dimensions](https://modrinth.com/mod/quantum-dimensions)  
 > [<img src="src/main/resources/logo.png">](https://modrinth.com/mod/quantum-dimensions)  
 > Travel to different dimensions and discover new op entities, blocks and items
+
 **Quantum Dimensions is currently in an alpha stage and stuff are being updated all the time.**  
 <br>
 <b>Quantum Dimensions</b>, a Minecraft mod that transforms the game into a vast, challenging multiverse filled with unique, resource-rich dimensions beyond the standard Overworld, Nether, and End.<br>
