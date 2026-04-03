@@ -22,8 +22,8 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 9.0,
-    "usageCount": 100,
+    "damageVsEntity": 10.0,
+    "usageCount": 1337,
     "glowCondition": {
       "fixedValue": false
     },
@@ -32,11 +32,17 @@
         "value": "Items.IRON_INGOT"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BigAssHammerRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "BigAssHammerLivingEntityIsHitWithTool"
+    }
   }
 }
