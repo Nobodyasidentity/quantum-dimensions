@@ -31,5 +31,8 @@
   "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Grisman Spawn Ägg",
   "entity.quantum_dimensions.zombie_pigman": "Zombie Grisman",
   "biome.quantum_dimensions.cursed_ocean": "Förbannat Hav",
-  "item.quantum_dimensions.kniv": "Knife"
+  "item.quantum_dimensions.kniv": "Knife",
+  "item.quantum_dimensions.big_ass_hammer": "Stor Jävla Hammare",
+  "advancements.get_big_ass_hammer.title": "Det där är en Stor Jävla Hammare",
+  "advancements.get_big_ass_hammer.descr": "Verkligen en Stor Jävla Hammare"
 }

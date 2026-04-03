@@ -31,5 +31,8 @@
   "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
   "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman",
   "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean",
-  "item.quantum_dimensions.kniv": "Kniv"
+  "item.quantum_dimensions.kniv": "Kniv",
+  "item.quantum_dimensions.big_ass_hammer": "Big Ass Hammer",
+  "advancements.get_big_ass_hammer.title": "That\u0027s a big ass hammer",
+  "advancements.get_big_ass_hammer.descr": "Truly a big ass hammer"
 }

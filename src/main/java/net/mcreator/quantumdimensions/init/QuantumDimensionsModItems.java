@@ -13,11 +13,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.quantumdimensions.item.TesseractItem;
-import net.mcreator.quantumdimensions.item.RebreatherItem;
-import net.mcreator.quantumdimensions.item.QuantumEraserItem;
-import net.mcreator.quantumdimensions.item.KnivItem;
-import net.mcreator.quantumdimensions.item.BeanSoupItem;
+import net.mcreator.quantumdimensions.item.*;
 import net.mcreator.quantumdimensions.QuantumDimensionsMod;
 
 import java.util.function.Function;
@@ -33,6 +29,7 @@ public class QuantumDimensionsModItems {
 	public static Item BEAN_SOUP_BUCKET;
 	public static Item ZOMBIE_PIGMAN_SPAWN_EGG;
 	public static Item KNIV;
+	public static Item BIG_ASS_HAMMER;
 
 	public static void load() {
 		COMPACT_DIAMOND_BLOCK = block(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK, "compact_diamond_block", new Item.Properties().rarity(Rarity.EPIC).fireResistant());
@@ -45,6 +42,7 @@ public class QuantumDimensionsModItems {
 		BEAN_SOUP_BUCKET = register("bean_soup_bucket", BeanSoupItem::new);
 		ZOMBIE_PIGMAN_SPAWN_EGG = register("zombie_pigman_spawn_egg", properties -> new SpawnEggItem(QuantumDimensionsModEntities.ZOMBIE_PIGMAN, properties));
 		KNIV = register("kniv", KnivItem::new);
+		BIG_ASS_HAMMER = register("big_ass_hammer", BigAssHammerItem::new);
 	}
 
 	// Start of user code block custom items

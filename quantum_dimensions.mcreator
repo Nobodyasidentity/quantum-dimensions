@@ -532,6 +532,48 @@
         ]
       },
       "path": "~/kniv"
+    },
+    {
+      "name": "BigAssHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "big_ass_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/items/big_ass_hammer.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/BigAssHammerItem.java",
+          "src/main/resources/assets/quantum_dimensions/models/item/big_ass_hammer.json"
+        ]
+      },
+      "path": "~/big_ass_hammer"
+    },
+    {
+      "name": "CraftBigAssHammer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_big_ass_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/recipe/craft_big_ass_hammer.json",
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/craft_big_ass_hammer.json"
+        ]
+      },
+      "path": "~/big_ass_hammer"
+    },
+    {
+      "name": "GetBigAssHammer",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_big_ass_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/advancement/get_big_ass_hammer.json"
+        ]
+      },
+      "path": "~/big_ass_hammer"
     }
   ],
   "variable_elements": [],
@@ -552,8 +594,13 @@
       "~CUSTOM:Hellrack"
     ],
     "ENTITIES:minecraft:undead": [],
-    "ITEMS:minecraft:swords": [],
-    "ITEMS:quantum_dimensions:kniv_repair_items": []
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BigAssHammer"
+    ],
+    "ITEMS:quantum_dimensions:kniv_repair_items": [],
+    "ITEMS:quantum_dimensions:big_ass_hammer_repair_items": [
+      "~Items.IRON_INGOT"
+    ]
   },
   "tab_element_order": {},
   "language_map": {
@@ -590,7 +637,10 @@
       "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
       "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman",
       "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean",
-      "item.quantum_dimensions.kniv": "Kniv"
+      "item.quantum_dimensions.kniv": "Kniv",
+      "item.quantum_dimensions.big_ass_hammer": "Big Ass Hammer",
+      "advancements.get_big_ass_hammer.title": "That\u0027s a big ass hammer",
+      "advancements.get_big_ass_hammer.descr": "Truly a big ass hammer"
     },
     "sv_se": {
       "item.quantum_dimensions.compact_diamond_block": "Kompakt Diamantblock",
@@ -625,7 +675,10 @@
       "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Grisman Spawn Ägg",
       "entity.quantum_dimensions.zombie_pigman": "Zombie Grisman",
       "biome.quantum_dimensions.cursed_ocean": "Förbannat Hav",
-      "item.quantum_dimensions.kniv": "Knife"
+      "item.quantum_dimensions.kniv": "Knife",
+      "item.quantum_dimensions.big_ass_hammer": "Stor Jävla Hammare",
+      "advancements.get_big_ass_hammer.title": "Det där är en Stor Jävla Hammare",
+      "advancements.get_big_ass_hammer.descr": "Verkligen en Stor Jävla Hammare"
     }
   },
   "metadata": {
@@ -636,32 +689,32 @@
       "src/main/java/net/mcreator/quantumdimensions/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModMenus.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModScreens.java",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocks.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlockEntities.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModItems.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntities.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntityRenderers.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/ItemStackMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/BoneMealItemMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
-      "src/main/resources/META-INF/quantum_dimensions.classtweaker",
-      "src/main/resources/quantum_dimensions.mixins.json",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsModClient.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/LivingEntityMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/BlockEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/event/PlayerEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
-      "src/main/resources/fabric.mod.json",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModTabs.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/BlockEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/BoneMealItemMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModTabs.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java",
+      "src/main/resources/quantum_dimensions.mixins.json",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
+      "src/main/resources/META-INF/quantum_dimensions.classtweaker",
       "src/main/java/net/mcreator/quantumdimensions/event/ItemEvents.java"
     ]
   },
@@ -702,6 +755,10 @@
       },
       {
         "name": "kniv",
+        "children": []
+      },
+      {
+        "name": "big_ass_hammer",
         "children": []
       }
     ]

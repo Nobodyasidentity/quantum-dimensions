@@ -30,6 +30,7 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModItems.BEAN_SOUP_BUCKET);
 					tabData.accept(QuantumDimensionsModItems.ZOMBIE_PIGMAN_SPAWN_EGG);
 					tabData.accept(QuantumDimensionsModItems.KNIV);
+					tabData.accept(QuantumDimensionsModItems.BIG_ASS_HAMMER);
 				}).build());
 	}
 }
