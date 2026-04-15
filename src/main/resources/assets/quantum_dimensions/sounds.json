@@ -1,0 +1,65 @@
+{
+  "music_disc.blackboxwarrior": {
+    "subtitle": "subtitles.music_disc.blackboxwarrior",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:blackboxwarrior",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.slash_inferno": {
+    "subtitle": "subtitles.music_disc.slash_inferno",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:slash-inferno",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.labyrinth": {
+    "subtitle": "subtitles.music_disc.labyrinth",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:labyrinth",
+        "stream": true
+      }
+    ]
+  },
+  "bg.only_you": {
+    "subtitle": "subtitles.bg.only_you",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:only-you",
+        "stream": false
+      }
+    ]
+  },
+  "music_disc.running_in_the_90s": {
+    "subtitle": "subtitles.music_disc.running_in_the_90s",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:running_in_the_90s",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.love_me_normally": {
+    "subtitle": "subtitles.music_disc.love_me_normally",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:love_me_normally",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.outliars_and_hyppocrates": {
+    "subtitle": "subtitles.music_disc.outliars_and_hyppocrates",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:outliars_and_hyppocrates",
+        "stream": true
+      }
+    ]
+  }
+}

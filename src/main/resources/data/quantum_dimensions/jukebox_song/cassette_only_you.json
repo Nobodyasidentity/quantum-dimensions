@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.quantum_dimensions.cassette_only_you.desc"
+  },
+  "length_in_seconds": 152,
+  "sound_event": "quantum_dimensions:bg.only_you"
+}

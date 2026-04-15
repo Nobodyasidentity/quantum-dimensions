@@ -31,6 +31,12 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModItems.ZOMBIE_PIGMAN_SPAWN_EGG);
 					tabData.accept(QuantumDimensionsModItems.KNIV);
 					tabData.accept(QuantumDimensionsModItems.BIG_ASS_HAMMER);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_BLACKBOXWARRIOR);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_SLASH_INFERNO);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_LABYRINTH);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_RUNNING_IN_THE_90S);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_LOVE_ME_NORMALLY);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_OUTLIARS_AND_HYPPOCRATES);
 				}).build());
 	}
 }

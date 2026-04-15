@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.quantum_dimensions.music_disc_running_in_the_90s.desc"
+  },
+  "length_in_seconds": 285,
+  "sound_event": "quantum_dimensions:music_disc.running_in_the_90s"
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 2,
+  "description": {
+    "translate": "item.quantum_dimensions.music_disc_love_me_normally.desc"
+  },
+  "length_in_seconds": 344,
+  "sound_event": "quantum_dimensions:music_disc.love_me_normally"
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 13,
+  "description": {
+    "translate": "item.quantum_dimensions.music_disc_slash_inferno.desc"
+  },
+  "length_in_seconds": 231,
+  "sound_event": "quantum_dimensions:music_disc.slash_inferno"
+}

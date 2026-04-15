@@ -8,12 +8,12 @@
       "registry_name": "compact_diamond_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/compact_diamond_block.json",
+          "src/main/java/net/mcreator/quantumdimensions/block/CompactDiamondBlockBlock.java",
           "src/main/resources/assets/quantum_dimensions/models/item/compact_diamond_block.json",
           "src/main/resources/assets/quantum_dimensions/models/block/compact_diamond_block.json",
-          "src/main/resources/assets/quantum_dimensions/items/compact_diamond_block.json",
           "src/main/resources/assets/quantum_dimensions/blockstates/compact_diamond_block.json",
-          "src/main/java/net/mcreator/quantumdimensions/block/CompactDiamondBlockBlock.java"
+          "src/main/resources/assets/quantum_dimensions/items/compact_diamond_block.json",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/compact_diamond_block.json"
         ]
       },
       "path": "~/compact_diamond_block"
@@ -36,9 +36,9 @@
       "registry_name": "tesseract",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/item/TesseractItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/tesseract.json",
           "src/main/resources/assets/quantum_dimensions/models/item/tesseract.json",
-          "src/main/resources/assets/quantum_dimensions/items/tesseract.json"
+          "src/main/java/net/mcreator/quantumdimensions/item/TesseractItem.java"
         ]
       },
       "path": "~/tesseract"
@@ -92,13 +92,13 @@
       "registry_name": "quantum_machine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/block/entity/QuantumMachineBlockEntity.java",
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/quantum_machine.json",
-          "src/main/resources/assets/quantum_dimensions/models/item/quantum_machine.json",
-          "src/main/resources/assets/quantum_dimensions/blockstates/quantum_machine.json",
-          "src/main/resources/assets/quantum_dimensions/models/block/quantum_machine.json",
           "src/main/java/net/mcreator/quantumdimensions/block/QuantumMachineBlock.java",
-          "src/main/resources/assets/quantum_dimensions/items/quantum_machine.json"
+          "src/main/resources/assets/quantum_dimensions/items/quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/models/block/quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/quantum_machine.json",
+          "src/main/java/net/mcreator/quantumdimensions/block/entity/QuantumMachineBlockEntity.java",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/quantum_machine.json"
         ]
       },
       "path": "~/quantum_machine"
@@ -111,9 +111,9 @@
       "registry_name": "quantum_machine_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/network/QuantumMachineGUIButtonMessage.java",
           "src/main/java/net/mcreator/quantumdimensions/client/gui/QuantumMachineGUIScreen.java",
-          "src/main/java/net/mcreator/quantumdimensions/world/inventory/QuantumMachineGUIMenu.java"
+          "src/main/java/net/mcreator/quantumdimensions/world/inventory/QuantumMachineGUIMenu.java",
+          "src/main/java/net/mcreator/quantumdimensions/network/QuantumMachineGUIButtonMessage.java"
         ]
       },
       "path": "~/quantum_machine"
@@ -161,9 +161,9 @@
       "registry_name": "the_27th_dimension",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/dimension_type/the_27th_dimension.json",
           "src/main/java/net/mcreator/quantumdimensions/client/dimension/The27thDimensionDimensionEffects.java",
-          "src/main/resources/data/quantum_dimensions/dimension/the_27th_dimension.json"
+          "src/main/resources/data/quantum_dimensions/dimension/the_27th_dimension.json",
+          "src/main/resources/data/quantum_dimensions/dimension_type/the_27th_dimension.json"
         ]
       },
       "path": "~/the_27th_dimension"
@@ -244,8 +244,8 @@
       "registry_name": "create_rebreather",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/advancement/recipes/create_rebreather.json",
-          "src/main/resources/data/quantum_dimensions/recipe/create_rebreather.json"
+          "src/main/resources/data/quantum_dimensions/recipe/create_rebreather.json",
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/create_rebreather.json"
         ]
       },
       "path": "~/rebreather"
@@ -258,12 +258,12 @@
       "registry_name": "the_correct_furnace",
       "metadata": {
         "files": [
-          "src/main/resources/assets/quantum_dimensions/items/the_correct_furnace.json",
           "src/main/java/net/mcreator/quantumdimensions/block/TheCorrectFurnaceBlock.java",
+          "src/main/resources/assets/quantum_dimensions/items/the_correct_furnace.json",
           "src/main/resources/assets/quantum_dimensions/models/block/the_correct_furnace.json",
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/the_correct_furnace.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/the_correct_furnace.json",
           "src/main/resources/assets/quantum_dimensions/blockstates/the_correct_furnace.json",
-          "src/main/resources/assets/quantum_dimensions/models/item/the_correct_furnace.json"
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/the_correct_furnace.json"
         ]
       },
       "path": "~/the_correct_furnace"
@@ -431,11 +431,11 @@
       "registry_name": "hellrack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/quantum_dimensions/items/hellrack.json",
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/hellrack.json",
           "src/main/resources/assets/quantum_dimensions/models/block/hellrack.json",
-          "src/main/resources/assets/quantum_dimensions/blockstates/hellrack.json",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/hellrack.json",
           "src/main/resources/assets/quantum_dimensions/models/item/hellrack.json",
+          "src/main/resources/assets/quantum_dimensions/items/hellrack.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/hellrack.json",
           "src/main/java/net/mcreator/quantumdimensions/block/HellrackBlock.java"
         ]
       },
@@ -449,13 +449,13 @@
       "registry_name": "bean_soup",
       "metadata": {
         "files": [
-          "src/main/resources/assets/quantum_dimensions/models/item/bean_soup_bucket.json",
-          "src/main/resources/assets/quantum_dimensions/items/bean_soup_bucket.json",
+          "src/main/java/net/mcreator/quantumdimensions/fluid/BeanSoupFluid.java",
           "src/main/resources/assets/quantum_dimensions/models/block/bean_soup.json",
           "src/main/java/net/mcreator/quantumdimensions/item/BeanSoupItem.java",
           "src/main/java/net/mcreator/quantumdimensions/block/BeanSoupBlock.java",
-          "src/main/resources/assets/quantum_dimensions/blockstates/bean_soup.json",
-          "src/main/java/net/mcreator/quantumdimensions/fluid/BeanSoupFluid.java"
+          "src/main/resources/assets/quantum_dimensions/models/item/bean_soup_bucket.json",
+          "src/main/resources/assets/quantum_dimensions/items/bean_soup_bucket.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/bean_soup.json"
         ]
       },
       "path": "~/hell"
@@ -497,9 +497,9 @@
       "registry_name": "cursed_ocean",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/worldgen/biome/cursed_ocean.json",
           "src/main/resources/data/quantum_dimensions/worldgen/configured_feature/cursed_ocean_tree.json",
-          "src/main/resources/data/quantum_dimensions/worldgen/placed_feature/cursed_ocean_tree.json"
+          "src/main/resources/data/quantum_dimensions/worldgen/placed_feature/cursed_ocean_tree.json",
+          "src/main/resources/data/quantum_dimensions/worldgen/biome/cursed_ocean.json"
         ]
       },
       "path": "~/the_27th_dimension"
@@ -636,10 +636,207 @@
         ]
       },
       "path": "~/big_ass_hammer"
+    },
+    {
+      "name": "MusicDiscBlackboxwarrior",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_blackboxwarrior",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_blackboxwarrior.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscBlackboxwarriorItem.java",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_blackboxwarrior.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_blackboxwarrior.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "MusicDiscSlashInferno",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_slash_inferno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscSlashInfernoItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_slash_inferno.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_slash_inferno.json",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_slash_inferno.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "MusicDiscLabyrinth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_labyrinth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_labyrinth.json",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_labyrinth.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_labyrinth.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscLabyrinthItem.java"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "MusicDiscRunningInThe90s",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_running_in_the_90s",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_running_in_the_90s.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_running_in_the_90s.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscRunningInThe90sItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_running_in_the_90s.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "CraftRunningInThe90s",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_running_in_the_90s",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/recipe/craft_running_in_the_90s.json",
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/craft_running_in_the_90s.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "MusicDiscLoveMeNormally",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_love_me_normally",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscLoveMeNormallyItem.java",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_love_me_normally.json",
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_love_me_normally.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_love_me_normally.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "CraftLabyrinth",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_labyrinth",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/recipe/craft_labyrinth.json",
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/craft_labyrinth.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "MusicDiscOutliarsAndHyppocrates",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_outliars_and_hyppocrates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_outliars_and_hyppocrates.json",
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_outliars_and_hyppocrates.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscOutliarsAndHyppocratesItem.java",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_outliars_and_hyppocrates.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "CassetteOnlyYou",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassette_only_you",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/jukebox_song/cassette_only_you.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/cassette_only_you.json",
+          "src/main/resources/assets/quantum_dimensions/items/cassette_only_you.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/CassetteOnlyYouItem.java"
+        ]
+      },
+      "path": "~/music_discs"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "music_disc.blackboxwarrior",
+      "files": [
+        "blackboxwarrior"
+      ],
+      "category": "record",
+      "subtitle": "BlackBoxWarrior - OKULTRA"
+    },
+    {
+      "name": "music_disc.slash_inferno",
+      "files": [
+        "slash-inferno"
+      ],
+      "category": "record",
+      "subtitle": "§6Teminite, BoomKitty, Waterflame \u0026 Autodidactic - Slash Inferno"
+    },
+    {
+      "name": "music_disc.labyrinth",
+      "files": [
+        "labyrinth"
+      ],
+      "category": "record",
+      "subtitle": "ミラクルミュージカル - Labyrinth"
+    },
+    {
+      "name": "bg.only_you",
+      "files": [
+        "only-you"
+      ],
+      "category": "master",
+      "subtitle": "§c§k||| §l§4ONLY YOU §c§k|||"
+    },
+    {
+      "name": "music_disc.running_in_the_90s",
+      "files": [
+        "running_in_the_90s"
+      ],
+      "category": "record",
+      "subtitle": "Running in the 90\u0027s"
+    },
+    {
+      "name": "music_disc.love_me_normally",
+      "files": [
+        "love_me_normally"
+      ],
+      "category": "record",
+      "subtitle": "Love, Me Normally"
+    },
+    {
+      "name": "music_disc.outliars_and_hyppocrates",
+      "files": [
+        "outliars_and_hyppocrates"
+      ],
+      "category": "record",
+      "subtitle": "Will Wood - Outliars and Hyppocrates"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Hellrack",
@@ -655,13 +852,14 @@
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Hellrack"
     ],
-    "ENTITIES:minecraft:undead": [],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:BigAssHammer"
-    ],
-    "ITEMS:quantum_dimensions:kniv_repair_items": [],
-    "ITEMS:quantum_dimensions:big_ass_hammer_repair_items": [
-      "~Items.IRON_INGOT"
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:CassetteOnlyYou",
+      "~CUSTOM:MusicDiscOutliarsAndHyppocrates",
+      "~CUSTOM:MusicDiscLoveMeNormally",
+      "~CUSTOM:MusicDiscRunningInThe90s",
+      "~CUSTOM:MusicDiscLabyrinth",
+      "~CUSTOM:MusicDiscSlashInferno",
+      "~CUSTOM:MusicDiscBlackboxwarrior"
     ]
   },
   "tab_element_order": {},
@@ -702,7 +900,28 @@
       "item.quantum_dimensions.kniv": "Kniv",
       "item.quantum_dimensions.big_ass_hammer": "Big Ass Hammer",
       "advancements.get_big_ass_hammer.title": "That\u0027s a big ass hammer",
-      "advancements.get_big_ass_hammer.descr": "Truly a big ass hammer"
+      "advancements.get_big_ass_hammer.descr": "Truly a big ass hammer",
+      "item.quantum_dimensions.music_disc_blackboxwarrior": "Music Disc",
+      "item.quantum_dimensions.music_disc_blackboxwarrior.desc": "Will Wood - BlackBoxWarrior",
+      "subtitles.music_disc.blackboxwarrior": "BlackBoxWarrior - OKULTRA",
+      "subtitles.music_disc.slash_inferno": "§6Teminite, BoomKitty, Waterflame \u0026 Autodidactic - Slash Inferno",
+      "subtitles.music_disc.labyrinth": "ミラクルミュージカル - Labyrinth",
+      "item.quantum_dimensions.music_disc_slash_inferno": "Music Disc",
+      "item.quantum_dimensions.music_disc_slash_inferno.desc": "§6Teminite, BoomKitty, Waterflame \u0026 Autodidactic - Slash Inferno",
+      "item.quantum_dimensions.music_disc_labyrinth": "Music Disc",
+      "item.quantum_dimensions.music_disc_labyrinth.desc": "ミラクルミュージカル - Labyrinth",
+      "subtitles.bg.only_you": "§c§k||| §l§4ONLY YOU §c§k|||",
+      "subtitles.music_disc.running_in_the_90s": "Running in the 90\u0027s",
+      "item.quantum_dimensions.music_disc_running_in_the_90s": "Music Disc",
+      "item.quantum_dimensions.music_disc_running_in_the_90s.desc": "Max Coveri - Running In The 90\u0027s",
+      "item.quantum_dimensions.music_disc_love_me_normally": "Music Disc",
+      "item.quantum_dimensions.music_disc_love_me_normally.desc": "Will Wood - Love, Me Normally",
+      "subtitles.music_disc.love_me_normally": "Love, Me Normally",
+      "subtitles.music_disc.outliars_and_hyppocrates": "Will Wood - Outliars and Hyppocrates",
+      "item.quantum_dimensions.music_disc_outliars_and_hyppocrates.desc": "Will Wood - Outliars and Hyppocrates",
+      "item.quantum_dimensions.music_disc_outliars_and_hyppocrates": "Music Disc",
+      "item.quantum_dimensions.cassette_only_you": "Cassette",
+      "item.quantum_dimensions.cassette_only_you.desc": "§4§kOnly You"
     },
     "sv_se": {
       "item.quantum_dimensions.compact_diamond_block": "Kompakt Diamantblock",
@@ -740,7 +959,28 @@
       "item.quantum_dimensions.kniv": "Knife",
       "item.quantum_dimensions.big_ass_hammer": "Stor Jävla Hammare",
       "advancements.get_big_ass_hammer.title": "Det där är en Stor Jävla Hammare",
-      "advancements.get_big_ass_hammer.descr": "Verkligen en Stor Jävla Hammare"
+      "advancements.get_big_ass_hammer.descr": "Verkligen en Stor Jävla Hammare",
+      "item.quantum_dimensions.music_disc_blackboxwarrior": "Musikskiva",
+      "item.quantum_dimensions.music_disc_blackboxwarrior.desc": "Will Wood - BlackBoxWarrior",
+      "subtitles.music_disc.blackboxwarrior": "BlackBoxWarrior - OKULTRA",
+      "subtitles.music_disc.slash_inferno": "§6Teminite, BoomKitty, Waterflame \u0026 Autodidactic - Slash Inferno",
+      "subtitles.music_disc.labyrinth": "ミラクルミュージカル - Labyrinth",
+      "item.quantum_dimensions.music_disc_slash_inferno": "Musikskiva",
+      "item.quantum_dimensions.music_disc_slash_inferno.desc": "Will Wood - BlackBoxWarrior",
+      "item.quantum_dimensions.music_disc_labyrinth": "Musikskiva",
+      "item.quantum_dimensions.music_disc_labyrinth.desc": "§6Teminite, BoomKitty, Waterflame \u0026 Autodidactic - Slash Inferno",
+      "subtitles.bg.only_you": "§l§4ONLY YOU",
+      "subtitles.music_disc.running_in_the_90s": "Running in the 90\u0027s",
+      "item.quantum_dimensions.music_disc_running_in_the_90s": "Music Disc",
+      "item.quantum_dimensions.music_disc_running_in_the_90s.desc": "ミラクルミュージカル - Labyrinth",
+      "item.quantum_dimensions.music_disc_love_me_normally": "Music Disc",
+      "item.quantum_dimensions.music_disc_love_me_normally.desc": "Max Coveri - Running In The 90\u0027s",
+      "subtitles.music_disc.love_me_normally": "Love, Me Normally",
+      "subtitles.music_disc.outliars_and_hyppocrates": "Will Wood - Outliars and Hyppocrates",
+      "item.quantum_dimensions.music_disc_outliars_and_hyppocrates.desc": "Will Wood - Love, Me Normally",
+      "item.quantum_dimensions.music_disc_outliars_and_hyppocrates": "Music Disc",
+      "item.quantum_dimensions.cassette_only_you": "Cassette",
+      "item.quantum_dimensions.cassette_only_you.desc": "§k§4Only You"
     }
   },
   "metadata": {
@@ -751,33 +991,35 @@
       "src/main/java/net/mcreator/quantumdimensions/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModMenus.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModScreens.java",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocks.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlockEntities.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModItems.java",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntities.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntityRenderers.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntities.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/quantumdimensions/mixin/BoneMealItemMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsMod.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/ItemEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
       "src/main/resources/META-INF/quantum_dimensions.classtweaker",
       "src/main/resources/quantum_dimensions.mixins.json",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsModClient.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/LivingEntityMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/BlockEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/event/PlayerEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
-      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsModClient.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModSounds.java",
+      "src/main/resources/assets/quantum_dimensions/sounds.json",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModTabs.java",
-      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsMod.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/ItemEvents.java"
+      "src/main/java/net/mcreator/quantumdimensions/event/BlockEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java"
     ]
   },
   "foldersRoot": {
@@ -822,6 +1064,10 @@
       {
         "name": "big_ass_hammer",
         "children": []
+      },
+      {
+        "name": "music_discs",
+        "children": []
       }
     ]
   },
@@ -843,5 +1089,5 @@
     "credits": "...",
     "modElementsPackage": "net.mcreator.quantumdimensions"
   },
-  "mcreatorVersion": 202600113616
+  "mcreatorVersion": 202600114619
 }

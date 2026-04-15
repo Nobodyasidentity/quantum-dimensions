@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:glass_pane",
+    "b": "minecraft:crying_obsidian"
+  },
+  "result": {
+    "id": "quantum_dimensions:music_disc_labyrinth",
+    "count": 1
+  }
+}

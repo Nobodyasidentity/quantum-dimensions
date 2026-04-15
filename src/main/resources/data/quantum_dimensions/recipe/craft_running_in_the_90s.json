@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "quantum_dimensions:tesseract",
+    "minecraft:minecart"
+  ],
+  "result": {
+    "id": "quantum_dimensions:music_disc_running_in_the_90s",
+    "count": 1
+  }
+}

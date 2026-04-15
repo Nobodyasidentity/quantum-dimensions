@@ -30,6 +30,13 @@ public class QuantumDimensionsModItems {
 	public static Item ZOMBIE_PIGMAN_SPAWN_EGG;
 	public static Item KNIV;
 	public static Item BIG_ASS_HAMMER;
+	public static Item MUSIC_DISC_BLACKBOXWARRIOR;
+	public static Item MUSIC_DISC_SLASH_INFERNO;
+	public static Item MUSIC_DISC_LABYRINTH;
+	public static Item MUSIC_DISC_RUNNING_IN_THE_90S;
+	public static Item MUSIC_DISC_LOVE_ME_NORMALLY;
+	public static Item MUSIC_DISC_OUTLIARS_AND_HYPPOCRATES;
+	public static Item CASSETTE_ONLY_YOU;
 
 	public static void load() {
 		COMPACT_DIAMOND_BLOCK = block(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK, "compact_diamond_block", new Item.Properties().rarity(Rarity.EPIC).fireResistant());
@@ -43,6 +50,13 @@ public class QuantumDimensionsModItems {
 		ZOMBIE_PIGMAN_SPAWN_EGG = register("zombie_pigman_spawn_egg", properties -> new SpawnEggItem(QuantumDimensionsModEntities.ZOMBIE_PIGMAN, properties));
 		KNIV = register("kniv", KnivItem::new);
 		BIG_ASS_HAMMER = register("big_ass_hammer", BigAssHammerItem::new);
+		MUSIC_DISC_BLACKBOXWARRIOR = register("music_disc_blackboxwarrior", MusicDiscBlackboxwarriorItem::new);
+		MUSIC_DISC_SLASH_INFERNO = register("music_disc_slash_inferno", MusicDiscSlashInfernoItem::new);
+		MUSIC_DISC_LABYRINTH = register("music_disc_labyrinth", MusicDiscLabyrinthItem::new);
+		MUSIC_DISC_RUNNING_IN_THE_90S = register("music_disc_running_in_the_90s", MusicDiscRunningInThe90sItem::new);
+		MUSIC_DISC_LOVE_ME_NORMALLY = register("music_disc_love_me_normally", MusicDiscLoveMeNormallyItem::new);
+		MUSIC_DISC_OUTLIARS_AND_HYPPOCRATES = register("music_disc_outliars_and_hyppocrates", MusicDiscOutliarsAndHyppocratesItem::new);
+		CASSETTE_ONLY_YOU = register("cassette_only_you", CassetteOnlyYouItem::new);
 	}
 
 	// Start of user code block custom items

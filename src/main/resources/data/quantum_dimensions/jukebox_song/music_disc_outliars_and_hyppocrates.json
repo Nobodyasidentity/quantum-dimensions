@@ -1,0 +1,8 @@
+{
+  "comparator_output": 3,
+  "description": {
+    "translate": "item.quantum_dimensions.music_disc_outliars_and_hyppocrates.desc"
+  },
+  "length_in_seconds": 252,
+  "sound_event": "quantum_dimensions:music_disc.outliars_and_hyppocrates"
+}

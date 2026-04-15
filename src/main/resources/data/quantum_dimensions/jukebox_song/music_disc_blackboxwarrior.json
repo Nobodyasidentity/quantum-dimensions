@@ -1,0 +1,8 @@
+{
+  "comparator_output": 9,
+  "description": {
+    "translate": "item.quantum_dimensions.music_disc_blackboxwarrior.desc"
+  },
+  "length_in_seconds": 294,
+  "sound_event": "quantum_dimensions:music_disc.blackboxwarrior"
+}
