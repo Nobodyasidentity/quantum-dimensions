@@ -37,6 +37,8 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_RUNNING_IN_THE_90S);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_LOVE_ME_NORMALLY);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_OUTLIARS_AND_HYPPOCRATES);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR);
+					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_HIGHSCORE);
 				}).build());
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 7,
+  "description": {
+    "translate": "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major.desc"
+  },
+  "length_in_seconds": 420,
+  "sound_event": "quantum_dimensions:music_disc.dream_sweet_in_sea_major"
+}

@@ -55,5 +55,11 @@
   "item.quantum_dimensions.music_disc_outliars_and_hyppocrates.desc": "Will Wood - Outliars and Hyppocrates",
   "item.quantum_dimensions.music_disc_outliars_and_hyppocrates": "Music Disc",
   "item.quantum_dimensions.cassette_only_you": "Cassette",
-  "item.quantum_dimensions.cassette_only_you.desc": "§4§kOnly You"
+  "item.quantum_dimensions.cassette_only_you.desc": "§4§kOnly You",
+  "subtitles.music_disc.dream_sweet_in_sea_major": "ミラクルミュージカル - Dream Sweet in Sea Major",
+  "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major.desc": "ミラクルミュージカル - Dream Sweet in Sea Major",
+  "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Music Disc",
+  "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
+  "item.quantum_dimensions.music_disc_highscore": "Music Disc",
+  "item.quantum_dimensions.music_disc_highscore.desc": "Panda Eyes - Highscore"
 }

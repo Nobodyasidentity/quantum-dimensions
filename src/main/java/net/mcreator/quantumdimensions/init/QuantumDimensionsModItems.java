@@ -37,6 +37,8 @@ public class QuantumDimensionsModItems {
 	public static Item MUSIC_DISC_LOVE_ME_NORMALLY;
 	public static Item MUSIC_DISC_OUTLIARS_AND_HYPPOCRATES;
 	public static Item CASSETTE_ONLY_YOU;
+	public static Item MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR;
+	public static Item MUSIC_DISC_HIGHSCORE;
 
 	public static void load() {
 		COMPACT_DIAMOND_BLOCK = block(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK, "compact_diamond_block", new Item.Properties().rarity(Rarity.EPIC).fireResistant());
@@ -57,6 +59,8 @@ public class QuantumDimensionsModItems {
 		MUSIC_DISC_LOVE_ME_NORMALLY = register("music_disc_love_me_normally", MusicDiscLoveMeNormallyItem::new);
 		MUSIC_DISC_OUTLIARS_AND_HYPPOCRATES = register("music_disc_outliars_and_hyppocrates", MusicDiscOutliarsAndHyppocratesItem::new);
 		CASSETTE_ONLY_YOU = register("cassette_only_you", CassetteOnlyYouItem::new);
+		MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR = register("music_disc_dream_sweet_in_sea_major", MusicDiscDreamSweetInSeaMajorItem::new);
+		MUSIC_DISC_HIGHSCORE = register("music_disc_highscore", MusicDiscHighscoreItem::new);
 	}
 
 	// Start of user code block custom items

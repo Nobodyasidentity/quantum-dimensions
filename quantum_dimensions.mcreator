@@ -776,6 +776,38 @@
         ]
       },
       "path": "~/music_discs"
+    },
+    {
+      "name": "MusicDiscDreamSweetInSeaMajor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_dream_sweet_in_sea_major",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_dream_sweet_in_sea_major.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscDreamSweetInSeaMajorItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_dream_sweet_in_sea_major.json",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_dream_sweet_in_sea_major.json"
+        ]
+      },
+      "path": "~/music_discs"
+    },
+    {
+      "name": "MusicDiscHighscore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_highscore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscHighscoreItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_highscore.json",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_highscore.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/music_disc_highscore.json"
+        ]
+      },
+      "path": "~/music_discs"
     }
   ],
   "variable_elements": [],
@@ -835,6 +867,22 @@
       ],
       "category": "record",
       "subtitle": "Will Wood - Outliars and Hyppocrates"
+    },
+    {
+      "name": "music_disc.dream_sweet_in_sea_major",
+      "files": [
+        "dream_sweet_in_sea_major"
+      ],
+      "category": "record",
+      "subtitle": "ミラクルミュージカル - Dream Sweet in Sea Major"
+    },
+    {
+      "name": "music_disc.highscore",
+      "files": [
+        "highscore"
+      ],
+      "category": "record",
+      "subtitle": "Panda Eyes - Highscore"
     }
   ],
   "tag_elements": {
@@ -853,6 +901,8 @@
       "~CUSTOM:Hellrack"
     ],
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:MusicDiscHighscore",
+      "~CUSTOM:MusicDiscDreamSweetInSeaMajor",
       "~CUSTOM:CassetteOnlyYou",
       "~CUSTOM:MusicDiscOutliarsAndHyppocrates",
       "~CUSTOM:MusicDiscLoveMeNormally",
@@ -921,7 +971,13 @@
       "item.quantum_dimensions.music_disc_outliars_and_hyppocrates.desc": "Will Wood - Outliars and Hyppocrates",
       "item.quantum_dimensions.music_disc_outliars_and_hyppocrates": "Music Disc",
       "item.quantum_dimensions.cassette_only_you": "Cassette",
-      "item.quantum_dimensions.cassette_only_you.desc": "§4§kOnly You"
+      "item.quantum_dimensions.cassette_only_you.desc": "§4§kOnly You",
+      "subtitles.music_disc.dream_sweet_in_sea_major": "ミラクルミュージカル - Dream Sweet in Sea Major",
+      "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major.desc": "ミラクルミュージカル - Dream Sweet in Sea Major",
+      "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Music Disc",
+      "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
+      "item.quantum_dimensions.music_disc_highscore": "Music Disc",
+      "item.quantum_dimensions.music_disc_highscore.desc": "Panda Eyes - Highscore"
     },
     "sv_se": {
       "item.quantum_dimensions.compact_diamond_block": "Kompakt Diamantblock",
@@ -980,7 +1036,13 @@
       "item.quantum_dimensions.music_disc_outliars_and_hyppocrates.desc": "Will Wood - Love, Me Normally",
       "item.quantum_dimensions.music_disc_outliars_and_hyppocrates": "Music Disc",
       "item.quantum_dimensions.cassette_only_you": "Cassette",
-      "item.quantum_dimensions.cassette_only_you.desc": "§k§4Only You"
+      "item.quantum_dimensions.cassette_only_you.desc": "§k§4Only You",
+      "subtitles.music_disc.dream_sweet_in_sea_major": "ミラクルミュージカル - Dream Sweet in Sea Major",
+      "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major.desc": "ミラクルミュージカル - Labyrinth",
+      "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Music Disc",
+      "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
+      "item.quantum_dimensions.music_disc_highscore": "Music Disc",
+      "item.quantum_dimensions.music_disc_highscore.desc": "ミラクルミュージカル - Dream Sweet in Sea Major"
     }
   },
   "metadata": {
@@ -991,35 +1053,35 @@
       "src/main/java/net/mcreator/quantumdimensions/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModMenus.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModScreens.java",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocks.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocks.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlockEntities.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModItems.java",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntityRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntities.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/BoneMealItemMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsMod.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModEntityRenderers.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
       "src/main/java/net/mcreator/quantumdimensions/mixin/ItemStackMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/ItemEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
       "src/main/resources/META-INF/quantum_dimensions.classtweaker",
       "src/main/resources/quantum_dimensions.mixins.json",
-      "src/main/java/net/mcreator/quantumdimensions/event/PlayerEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/PlayerMixin.java",
-      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsModClient.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/LivingEntityEvents.java",
-      "src/main/java/net/mcreator/quantumdimensions/event/MiscEvents.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/CommandsMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModSounds.java",
-      "src/main/resources/assets/quantum_dimensions/sounds.json",
-      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModTabs.java",
+      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsModClient.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java",
       "src/main/java/net/mcreator/quantumdimensions/event/BlockEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/quantumdimensions/mixin/BlockItemMixin.java",
+      "src/main/resources/assets/quantum_dimensions/sounds.json",
       "src/main/resources/fabric.mod.json",
-      "src/main/java/net/mcreator/quantumdimensions/mixin/ExperienceOrbMixin.java"
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModTabs.java",
+      "src/main/java/net/mcreator/quantumdimensions/QuantumDimensionsMod.java",
+      "src/main/java/net/mcreator/quantumdimensions/event/ItemEvents.java"
     ]
   },
   "foldersRoot": {

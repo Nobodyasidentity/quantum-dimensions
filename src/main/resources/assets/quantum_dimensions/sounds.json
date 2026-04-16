@@ -61,5 +61,23 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.dream_sweet_in_sea_major": {
+    "subtitle": "subtitles.music_disc.dream_sweet_in_sea_major",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:dream_sweet_in_sea_major",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.highscore": {
+    "subtitle": "subtitles.music_disc.highscore",
+    "sounds": [
+      {
+        "name": "quantum_dimensions:highscore",
+        "stream": true
+      }
+    ]
   }
 }

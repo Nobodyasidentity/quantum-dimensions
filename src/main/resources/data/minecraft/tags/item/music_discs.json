@@ -1,12 +1,14 @@
 {
   "replace": false,
   "values": [
+    "quantum_dimensions:music_disc_highscore",
     "quantum_dimensions:music_disc_labyrinth",
     "quantum_dimensions:cassette_only_you",
     "quantum_dimensions:music_disc_outliars_and_hyppocrates",
     "quantum_dimensions:music_disc_love_me_normally",
     "quantum_dimensions:music_disc_running_in_the_90s",
     "quantum_dimensions:music_disc_blackboxwarrior",
+    "quantum_dimensions:music_disc_dream_sweet_in_sea_major",
     "quantum_dimensions:music_disc_slash_inferno"
   ]
 }
