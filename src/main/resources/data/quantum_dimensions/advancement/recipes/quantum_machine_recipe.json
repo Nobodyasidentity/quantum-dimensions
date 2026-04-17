@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "quantum_dimensions:uncreate_compact_diamond_block"
+        "recipe": "quantum_dimensions:quantum_machine_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "quantum_dimensions:compact_diamond_block"
+            "items": "quantum_dimensions:tesseract"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "quantum_dimensions:uncreate_compact_diamond_block"
+      "quantum_dimensions:quantum_machine_recipe"
     ]
   }
 }

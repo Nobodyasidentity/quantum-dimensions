@@ -20,7 +20,6 @@ public class QuantumDimensionsModTabs {
 	public static void load() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_QUANTUM_DIMENSIONS, CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0).title(Component.translatable("item_group.quantum_dimensions.quantum_dimensions"))
 				.icon(() -> new ItemStack(QuantumDimensionsModItems.TESSERACT)).displayItems((parameters, tabData) -> {
-					tabData.accept(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK.asItem());
 					tabData.accept(QuantumDimensionsModItems.TESSERACT);
 					tabData.accept(QuantumDimensionsModBlocks.QUANTUM_MACHINE.asItem());
 					tabData.accept(QuantumDimensionsModItems.REBREATHER);
@@ -29,7 +28,6 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModBlocks.HELLRACK.asItem());
 					tabData.accept(QuantumDimensionsModItems.BEAN_SOUP_BUCKET);
 					tabData.accept(QuantumDimensionsModItems.ZOMBIE_PIGMAN_SPAWN_EGG);
-					tabData.accept(QuantumDimensionsModItems.KNIV);
 					tabData.accept(QuantumDimensionsModItems.BIG_ASS_HAMMER);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_BLACKBOXWARRIOR);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_SLASH_INFERNO);

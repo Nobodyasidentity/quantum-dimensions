@@ -1,9 +1,6 @@
 {
-  "item.quantum_dimensions.compact_diamond_block": "Compact Block of Diamond",
   "item_group.quantum_dimensions.quantum_dimensions": "Quantum Dimensions",
   "item.quantum_dimensions.tesseract": "Tesseract",
-  "advancements.get_compact_diamond_block.descr": "§fGet a Compact Block of Diamond",
-  "advancements.get_compact_diamond_block.title": "§bWoah! Shinyyyy...",
   "item.quantum_dimensions.quantum_machine": "Quantum Machine",
   "gui.quantum_dimensions.quantum_machine_gui.button_teleport": "Teleport",
   "gui.quantum_dimensions.quantum_machine_gui.label_quantum_machine": "Quantum Machine",
@@ -31,7 +28,6 @@
   "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
   "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman",
   "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean",
-  "item.quantum_dimensions.kniv": "Kniv",
   "item.quantum_dimensions.big_ass_hammer": "Big Ass Hammer",
   "advancements.get_big_ass_hammer.title": "That\u0027s a big ass hammer",
   "advancements.get_big_ass_hammer.descr": "Truly a big ass hammer",

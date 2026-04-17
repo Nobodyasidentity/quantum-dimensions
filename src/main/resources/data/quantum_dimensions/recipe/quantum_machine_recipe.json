@@ -2,10 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a"
+    "aba",
+    "cdc",
+    "ccc"
   ],
   "key": {
-    "a": "quantum_dimensions:compact_diamond_block"
+    "a": "minecraft:redstone_torch",
+    "b": "minecraft:diamond",
+    "c": "minecraft:cobbled_deepslate",
+    "d": "quantum_dimensions:tesseract"
   },
   "result": {
     "id": "quantum_dimensions:quantum_machine",

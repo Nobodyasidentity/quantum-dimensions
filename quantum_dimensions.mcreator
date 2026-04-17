@@ -1,24 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "CompactDiamondBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "compact_diamond_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/quantumdimensions/block/CompactDiamondBlockBlock.java",
-          "src/main/resources/assets/quantum_dimensions/models/item/compact_diamond_block.json",
-          "src/main/resources/assets/quantum_dimensions/models/block/compact_diamond_block.json",
-          "src/main/resources/assets/quantum_dimensions/blockstates/compact_diamond_block.json",
-          "src/main/resources/assets/quantum_dimensions/items/compact_diamond_block.json",
-          "src/main/resources/data/quantum_dimensions/loot_table/blocks/compact_diamond_block.json"
-        ]
-      },
-      "path": "~/compact_diamond_block"
-    },
-    {
       "name": "QuantumDimensions",
       "type": "tab",
       "compiles": true,
@@ -42,47 +24,6 @@
         ]
       },
       "path": "~/tesseract"
-    },
-    {
-      "name": "CreateCompactDiamondBlock",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "create_compact_diamond_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/quantum_dimensions/advancement/recipes/create_compact_diamond_block.json",
-          "src/main/resources/data/quantum_dimensions/recipe/create_compact_diamond_block.json"
-        ]
-      },
-      "path": "~/compact_diamond_block"
-    },
-    {
-      "name": "Uncreatecompactdiamondblock",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncreatecompactdiamondblock",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/quantum_dimensions/recipe/uncreate_compact_diamond_block.json",
-          "src/main/resources/data/quantum_dimensions/advancement/recipes/uncreatecompactdiamondblock.json"
-        ]
-      },
-      "path": "~/compact_diamond_block"
-    },
-    {
-      "name": "GetCompactDiamondBlock",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "get_compact_diamond_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/quantum_dimensions/advancement/get_compact_diamond_block.json"
-        ]
-      },
-      "path": "~/compact_diamond_block"
     },
     {
       "name": "QuantumMachine",
@@ -172,11 +113,12 @@
       "name": "QuantumMachineRecipe",
       "type": "recipe",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "quantum_machine_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/quantum_dimensions/recipe/quantum_machine_recipe.json"
+          "src/main/resources/data/quantum_dimensions/recipe/quantum_machine_recipe.json",
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/quantum_machine_recipe.json"
         ]
       },
       "path": "~/quantum_machine"
@@ -503,35 +445,6 @@
         ]
       },
       "path": "~/the_27th_dimension"
-    },
-    {
-      "name": "Kniv",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "kniv",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/quantum_dimensions/items/kniv.json",
-          "src/main/resources/assets/quantum_dimensions/models/item/kniv.json",
-          "src/main/java/net/mcreator/quantumdimensions/item/KnivItem.java"
-        ]
-      },
-      "path": "~/kniv"
-    },
-    {
-      "name": "CreateKniv",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "create_kniv",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/quantum_dimensions/advancement/recipes/create_kniv.json",
-          "src/main/resources/data/quantum_dimensions/recipe/create_kniv.json"
-        ]
-      },
-      "path": "~/kniv"
     },
     {
       "name": "BigAssHammer",
@@ -887,8 +800,7 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Hellrack",
-      "~CUSTOM:CompactDiamondBlock"
+      "~CUSTOM:Hellrack"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.WATER",
@@ -915,11 +827,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.quantum_dimensions.compact_diamond_block": "Compact Block of Diamond",
       "item_group.quantum_dimensions.quantum_dimensions": "Quantum Dimensions",
       "item.quantum_dimensions.tesseract": "Tesseract",
-      "advancements.get_compact_diamond_block.descr": "§fGet a Compact Block of Diamond",
-      "advancements.get_compact_diamond_block.title": "§bWoah! Shinyyyy...",
       "item.quantum_dimensions.quantum_machine": "Quantum Machine",
       "gui.quantum_dimensions.quantum_machine_gui.button_teleport": "Teleport",
       "gui.quantum_dimensions.quantum_machine_gui.label_quantum_machine": "Quantum Machine",
@@ -947,7 +856,6 @@
       "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Pigman Spawn Egg",
       "entity.quantum_dimensions.zombie_pigman": "Zombie Pigman",
       "biome.quantum_dimensions.cursed_ocean": "Cursed Ocean",
-      "item.quantum_dimensions.kniv": "Kniv",
       "item.quantum_dimensions.big_ass_hammer": "Big Ass Hammer",
       "advancements.get_big_ass_hammer.title": "That\u0027s a big ass hammer",
       "advancements.get_big_ass_hammer.descr": "Truly a big ass hammer",
@@ -980,11 +888,8 @@
       "item.quantum_dimensions.music_disc_highscore.desc": "Panda Eyes - Highscore"
     },
     "sv_se": {
-      "item.quantum_dimensions.compact_diamond_block": "Kompakt Diamantblock",
       "item_group.quantum_dimensions.quantum_dimensions": "Kvantum Dimensioner",
       "item.quantum_dimensions.tesseract": "Tesserakt",
-      "advancements.get_compact_diamond_block.descr": "§fFå ett kompakt diamantblock",
-      "advancements.get_compact_diamond_block.title": "§bWoah! Glänsande...",
       "item.quantum_dimensions.quantum_machine": "Kvantum Maskin",
       "gui.quantum_dimensions.quantum_machine_gui.button_teleport": "Teleportera",
       "gui.quantum_dimensions.quantum_machine_gui.label_quantum_machine": "Kvantum Maskin",
@@ -1012,7 +917,6 @@
       "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Grisman Spawn Ägg",
       "entity.quantum_dimensions.zombie_pigman": "Zombie Grisman",
       "biome.quantum_dimensions.cursed_ocean": "Förbannat Hav",
-      "item.quantum_dimensions.kniv": "Knife",
       "item.quantum_dimensions.big_ass_hammer": "Stor Jävla Hammare",
       "advancements.get_big_ass_hammer.title": "Det där är en Stor Jävla Hammare",
       "advancements.get_big_ass_hammer.descr": "Verkligen en Stor Jävla Hammare",
@@ -1027,21 +931,21 @@
       "item.quantum_dimensions.music_disc_labyrinth.desc": "§6Teminite, BoomKitty, Waterflame \u0026 Autodidactic - Slash Inferno",
       "subtitles.bg.only_you": "§l§4ONLY YOU",
       "subtitles.music_disc.running_in_the_90s": "Running in the 90\u0027s",
-      "item.quantum_dimensions.music_disc_running_in_the_90s": "Music Disc",
+      "item.quantum_dimensions.music_disc_running_in_the_90s": "Musikskiva",
       "item.quantum_dimensions.music_disc_running_in_the_90s.desc": "ミラクルミュージカル - Labyrinth",
-      "item.quantum_dimensions.music_disc_love_me_normally": "Music Disc",
+      "item.quantum_dimensions.music_disc_love_me_normally": "Musikskiva",
       "item.quantum_dimensions.music_disc_love_me_normally.desc": "Max Coveri - Running In The 90\u0027s",
       "subtitles.music_disc.love_me_normally": "Love, Me Normally",
       "subtitles.music_disc.outliars_and_hyppocrates": "Will Wood - Outliars and Hyppocrates",
       "item.quantum_dimensions.music_disc_outliars_and_hyppocrates.desc": "Will Wood - Love, Me Normally",
-      "item.quantum_dimensions.music_disc_outliars_and_hyppocrates": "Music Disc",
-      "item.quantum_dimensions.cassette_only_you": "Cassette",
+      "item.quantum_dimensions.music_disc_outliars_and_hyppocrates": "Musikskiva",
+      "item.quantum_dimensions.cassette_only_you": "Kassett",
       "item.quantum_dimensions.cassette_only_you.desc": "§k§4Only You",
       "subtitles.music_disc.dream_sweet_in_sea_major": "ミラクルミュージカル - Dream Sweet in Sea Major",
       "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major.desc": "ミラクルミュージカル - Labyrinth",
-      "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Music Disc",
+      "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Musikskiva",
       "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
-      "item.quantum_dimensions.music_disc_highscore": "Music Disc",
+      "item.quantum_dimensions.music_disc_highscore": "Musikskiva",
       "item.quantum_dimensions.music_disc_highscore.desc": "ミラクルミュージカル - Dream Sweet in Sea Major"
     }
   },
@@ -1088,10 +992,6 @@
     "name": "~",
     "children": [
       {
-        "name": "compact_diamond_block",
-        "children": []
-      },
-      {
         "name": "quantum_machine",
         "children": []
       },
@@ -1117,10 +1017,6 @@
       },
       {
         "name": "hell",
-        "children": []
-      },
-      {
-        "name": "kniv",
         "children": []
       },
       {

@@ -19,7 +19,6 @@ import net.mcreator.quantumdimensions.QuantumDimensionsMod;
 import java.util.function.Function;
 
 public class QuantumDimensionsModItems {
-	public static Item COMPACT_DIAMOND_BLOCK;
 	public static Item TESSERACT;
 	public static Item QUANTUM_MACHINE;
 	public static Item REBREATHER;
@@ -28,7 +27,6 @@ public class QuantumDimensionsModItems {
 	public static Item HELLRACK;
 	public static Item BEAN_SOUP_BUCKET;
 	public static Item ZOMBIE_PIGMAN_SPAWN_EGG;
-	public static Item KNIV;
 	public static Item BIG_ASS_HAMMER;
 	public static Item MUSIC_DISC_BLACKBOXWARRIOR;
 	public static Item MUSIC_DISC_SLASH_INFERNO;
@@ -41,7 +39,6 @@ public class QuantumDimensionsModItems {
 	public static Item MUSIC_DISC_HIGHSCORE;
 
 	public static void load() {
-		COMPACT_DIAMOND_BLOCK = block(QuantumDimensionsModBlocks.COMPACT_DIAMOND_BLOCK, "compact_diamond_block", new Item.Properties().rarity(Rarity.EPIC).fireResistant());
 		TESSERACT = register("tesseract", TesseractItem::new);
 		QUANTUM_MACHINE = block(QuantumDimensionsModBlocks.QUANTUM_MACHINE, "quantum_machine", new Item.Properties().rarity(Rarity.EPIC).fireResistant());
 		REBREATHER = register("rebreather", RebreatherItem::new);
@@ -50,7 +47,6 @@ public class QuantumDimensionsModItems {
 		HELLRACK = block(QuantumDimensionsModBlocks.HELLRACK, "hellrack");
 		BEAN_SOUP_BUCKET = register("bean_soup_bucket", BeanSoupItem::new);
 		ZOMBIE_PIGMAN_SPAWN_EGG = register("zombie_pigman_spawn_egg", properties -> new SpawnEggItem(QuantumDimensionsModEntities.ZOMBIE_PIGMAN, properties));
-		KNIV = register("kniv", KnivItem::new);
 		BIG_ASS_HAMMER = register("big_ass_hammer", BigAssHammerItem::new);
 		MUSIC_DISC_BLACKBOXWARRIOR = register("music_disc_blackboxwarrior", MusicDiscBlackboxwarriorItem::new);
 		MUSIC_DISC_SLASH_INFERNO = register("music_disc_slash_inferno", MusicDiscSlashInfernoItem::new);

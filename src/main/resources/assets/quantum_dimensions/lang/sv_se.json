@@ -1,9 +1,6 @@
 {
-  "item.quantum_dimensions.compact_diamond_block": "Kompakt Diamantblock",
   "item_group.quantum_dimensions.quantum_dimensions": "Kvantum Dimensioner",
   "item.quantum_dimensions.tesseract": "Tesserakt",
-  "advancements.get_compact_diamond_block.descr": "§fFå ett kompakt diamantblock",
-  "advancements.get_compact_diamond_block.title": "§bWoah! Glänsande...",
   "item.quantum_dimensions.quantum_machine": "Kvantum Maskin",
   "gui.quantum_dimensions.quantum_machine_gui.button_teleport": "Teleportera",
   "gui.quantum_dimensions.quantum_machine_gui.label_quantum_machine": "Kvantum Maskin",
@@ -31,7 +28,6 @@
   "item.quantum_dimensions.zombie_pigman_spawn_egg": "Zombie Grisman Spawn Ägg",
   "entity.quantum_dimensions.zombie_pigman": "Zombie Grisman",
   "biome.quantum_dimensions.cursed_ocean": "Förbannat Hav",
-  "item.quantum_dimensions.kniv": "Knife",
   "item.quantum_dimensions.big_ass_hammer": "Stor Jävla Hammare",
   "advancements.get_big_ass_hammer.title": "Det där är en Stor Jävla Hammare",
   "advancements.get_big_ass_hammer.descr": "Verkligen en Stor Jävla Hammare",
