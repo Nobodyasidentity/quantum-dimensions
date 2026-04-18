@@ -2,22 +2,22 @@
   "_fv": 85,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Energy cannot be created or destroyed",
-    "achievementDescription": "§fMaybe this is why Steve don't normally do this.",
+    "achievementName": "Quantum Dimensions",
+    "achievementDescription": "Travel to different dimensions and discover new op entities, blocks and items",
     "achievementIcon": {
-      "value": "CUSTOM:TheCorrectFurnace"
+      "value": "CUSTOM:Tesseract"
     },
-    "background": "Default",
+    "background": "the27thdimensionadvancements.png",
     "disableDisplay": false,
-    "showPopup": true,
-    "announceToChat": true,
+    "showPopup": false,
+    "announceToChat": false,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardXP": 0,
-    "achievementType": "goal",
+    "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:QuantumDimensionsAdvancements"
+      "value": "No parent: root"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
   }

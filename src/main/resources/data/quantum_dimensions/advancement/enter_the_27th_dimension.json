@@ -1,8 +1,7 @@
 {
   "display": {
-    "background": "quantum_dimensions:screens/the27thdimensionadvancements",
     "icon": {
-      "id": "quantum_dimensions:tesseract"
+      "id": "quantum_dimensions:not_quite_water"
     },
     "title": {
       "translate": "advancements.enter_the_27th_dimension.title"
@@ -13,7 +12,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "enter_the_27th_dimension_0": {
@@ -22,5 +21,6 @@
         "to": "quantum_dimensions:the_27th_dimension"
       }
     }
-  }
+  },
+  "parent": "quantum_dimensions:get_quantum_machine"
 }

@@ -102,9 +102,9 @@
       "registry_name": "the_27th_dimension",
       "metadata": {
         "files": [
+          "src/main/resources/data/quantum_dimensions/dimension_type/the_27th_dimension.json",
           "src/main/java/net/mcreator/quantumdimensions/client/dimension/The27thDimensionDimensionEffects.java",
-          "src/main/resources/data/quantum_dimensions/dimension/the_27th_dimension.json",
-          "src/main/resources/data/quantum_dimensions/dimension_type/the_27th_dimension.json"
+          "src/main/resources/data/quantum_dimensions/dimension/the_27th_dimension.json"
         ]
       },
       "path": "~/the_27th_dimension"
@@ -439,9 +439,9 @@
       "registry_name": "cursed_ocean",
       "metadata": {
         "files": [
+          "src/main/resources/data/quantum_dimensions/worldgen/biome/cursed_ocean.json",
           "src/main/resources/data/quantum_dimensions/worldgen/configured_feature/cursed_ocean_tree.json",
-          "src/main/resources/data/quantum_dimensions/worldgen/placed_feature/cursed_ocean_tree.json",
-          "src/main/resources/data/quantum_dimensions/worldgen/biome/cursed_ocean.json"
+          "src/main/resources/data/quantum_dimensions/worldgen/placed_feature/cursed_ocean_tree.json"
         ]
       },
       "path": "~/the_27th_dimension"
@@ -721,6 +721,88 @@
         ]
       },
       "path": "~/music_discs"
+    },
+    {
+      "name": "QuantumDimensionsAdvancements",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_dimensions_advancements",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/advancement/quantum_dimensions_advancements.json"
+        ]
+      }
+    },
+    {
+      "name": "NotQuiteWater",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_quite_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/blockstates/not_quite_water.json",
+          "src/main/resources/assets/quantum_dimensions/items/not_quite_water.json",
+          "src/main/resources/assets/quantum_dimensions/models/block/not_quite_water.json",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/not_quite_water.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/not_quite_water.json",
+          "src/main/java/net/mcreator/quantumdimensions/block/NotQuiteWaterBlock.java"
+        ]
+      },
+      "path": "~/not-quite-water"
+    },
+    {
+      "name": "FellOnNotQuiteWater",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fell_on_not_quite_water",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/procedures/FellOnNotQuiteWaterProcedure.java"
+        ]
+      },
+      "path": "~/not-quite-water"
+    },
+    {
+      "name": "FellOnNotQuiteWaterAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fell_on_not_quite_water_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/advancement/fell_on_not_quite_water_advancement.json"
+        ]
+      },
+      "path": "~/not-quite-water"
     }
   ],
   "variable_elements": [],
@@ -803,6 +885,7 @@
       "~CUSTOM:Hellrack"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:NotQuiteWater",
       "~Blocks.WATER",
       "~Blocks.STONE#0"
     ],
@@ -822,9 +905,39 @@
       "~CUSTOM:MusicDiscLabyrinth",
       "~CUSTOM:MusicDiscSlashInferno",
       "~CUSTOM:MusicDiscBlackboxwarrior"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:CursedOcean"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:CursedOcean"
+    ],
+    "BLOCKS:minecraft:climbable": [
+      "~CUSTOM:NotQuiteWater"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:QuantumDimensions": [
+      "QuantumMachine",
+      "MusicDiscBlackboxwarrior",
+      "MusicDiscSlashInferno",
+      "MusicDiscLabyrinth",
+      "MusicDiscRunningInThe90s",
+      "MusicDiscLoveMeNormally",
+      "MusicDiscOutliarsAndHyppocrates",
+      "MusicDiscDreamSweetInSeaMajor",
+      "MusicDiscHighscore",
+      "Tesseract",
+      "Rebreather",
+      "QuantumEraser",
+      "BigAssHammer",
+      "ZombiePigman",
+      "BeanSoup",
+      "NotQuiteWater",
+      "TheCorrectFurnace",
+      "Hellrack"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item_group.quantum_dimensions.quantum_dimensions": "Quantum Dimensions",
@@ -885,7 +998,12 @@
       "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Music Disc",
       "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
       "item.quantum_dimensions.music_disc_highscore": "Music Disc",
-      "item.quantum_dimensions.music_disc_highscore.desc": "Panda Eyes - Highscore"
+      "item.quantum_dimensions.music_disc_highscore.desc": "Panda Eyes - Highscore",
+      "advancements.quantum_dimensions_advancements.title": "Quantum Dimensions",
+      "advancements.quantum_dimensions_advancements.descr": "Travel to different dimensions and discover new op entities, blocks and items",
+      "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
+      "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
+      "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery"
     },
     "sv_se": {
       "item_group.quantum_dimensions.quantum_dimensions": "Kvantum Dimensioner",
@@ -946,7 +1064,12 @@
       "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Musikskiva",
       "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
       "item.quantum_dimensions.music_disc_highscore": "Musikskiva",
-      "item.quantum_dimensions.music_disc_highscore.desc": "ミラクルミュージカル - Dream Sweet in Sea Major"
+      "item.quantum_dimensions.music_disc_highscore.desc": "ミラクルミュージカル - Dream Sweet in Sea Major",
+      "advancements.quantum_dimensions_advancements.title": "Quantum Dimensions",
+      "advancements.quantum_dimensions_advancements.descr": "Travel to different dimensions and discover new op entities, blocks and items",
+      "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
+      "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
+      "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery"
     }
   },
   "metadata": {
@@ -957,6 +1080,7 @@
       "src/main/java/net/mcreator/quantumdimensions/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModMenus.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModScreens.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModProcedures.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocks.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlockEntities.java",
@@ -1025,6 +1149,10 @@
       },
       {
         "name": "music_discs",
+        "children": []
+      },
+      {
+        "name": "not-quite-water",
         "children": []
       }
     ]

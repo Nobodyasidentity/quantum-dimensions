@@ -20,15 +20,7 @@ public class QuantumDimensionsModTabs {
 	public static void load() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_QUANTUM_DIMENSIONS, CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0).title(Component.translatable("item_group.quantum_dimensions.quantum_dimensions"))
 				.icon(() -> new ItemStack(QuantumDimensionsModItems.TESSERACT)).displayItems((parameters, tabData) -> {
-					tabData.accept(QuantumDimensionsModItems.TESSERACT);
 					tabData.accept(QuantumDimensionsModBlocks.QUANTUM_MACHINE.asItem());
-					tabData.accept(QuantumDimensionsModItems.REBREATHER);
-					tabData.accept(QuantumDimensionsModBlocks.THE_CORRECT_FURNACE.asItem());
-					tabData.accept(QuantumDimensionsModItems.QUANTUM_ERASER);
-					tabData.accept(QuantumDimensionsModBlocks.HELLRACK.asItem());
-					tabData.accept(QuantumDimensionsModItems.BEAN_SOUP_BUCKET);
-					tabData.accept(QuantumDimensionsModItems.ZOMBIE_PIGMAN_SPAWN_EGG);
-					tabData.accept(QuantumDimensionsModItems.BIG_ASS_HAMMER);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_BLACKBOXWARRIOR);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_SLASH_INFERNO);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_LABYRINTH);
@@ -37,6 +29,15 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_OUTLIARS_AND_HYPPOCRATES);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR);
 					tabData.accept(QuantumDimensionsModItems.MUSIC_DISC_HIGHSCORE);
+					tabData.accept(QuantumDimensionsModItems.TESSERACT);
+					tabData.accept(QuantumDimensionsModItems.REBREATHER);
+					tabData.accept(QuantumDimensionsModItems.QUANTUM_ERASER);
+					tabData.accept(QuantumDimensionsModItems.BIG_ASS_HAMMER);
+					tabData.accept(QuantumDimensionsModItems.ZOMBIE_PIGMAN_SPAWN_EGG);
+					tabData.accept(QuantumDimensionsModItems.BEAN_SOUP_BUCKET);
+					tabData.accept(QuantumDimensionsModBlocks.NOT_QUITE_WATER.asItem());
+					tabData.accept(QuantumDimensionsModBlocks.THE_CORRECT_FURNACE.asItem());
+					tabData.accept(QuantumDimensionsModBlocks.HELLRACK.asItem());
 				}).build());
 	}
 }

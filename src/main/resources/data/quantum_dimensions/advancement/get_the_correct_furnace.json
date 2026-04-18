@@ -19,5 +19,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "minecraft:story/mine_stone"
+  "parent": "quantum_dimensions:quantum_dimensions_advancements"
 }

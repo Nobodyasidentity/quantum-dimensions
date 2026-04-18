@@ -3,6 +3,12 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
+    "particle": {
+      "options": {
+        "type": "dripping_water"
+      },
+      "probability": 0.005
+    },
     "foliage_color": 10387789,
     "grass_color": 9470285,
     "sky_color": 7972607,

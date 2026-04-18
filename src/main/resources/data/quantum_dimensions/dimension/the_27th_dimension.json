@@ -731,10 +731,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:water",
-                        "Properties": {
-                          "level": "0"
-                        }
+                        "Name": "quantum_dimensions:not_quite_water"
                       }
                     }
                   }
@@ -945,10 +942,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:water",
-                      "Properties": {
-                        "level": "0"
-                      }
+                      "Name": "quantum_dimensions:not_quite_water"
                     }
                   }
                 }

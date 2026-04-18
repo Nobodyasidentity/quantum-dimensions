@@ -57,5 +57,10 @@
   "item.quantum_dimensions.music_disc_dream_sweet_in_sea_major": "Music Disc",
   "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
   "item.quantum_dimensions.music_disc_highscore": "Music Disc",
-  "item.quantum_dimensions.music_disc_highscore.desc": "Panda Eyes - Highscore"
+  "item.quantum_dimensions.music_disc_highscore.desc": "Panda Eyes - Highscore",
+  "advancements.quantum_dimensions_advancements.title": "Quantum Dimensions",
+  "advancements.quantum_dimensions_advancements.descr": "Travel to different dimensions and discover new op entities, blocks and items",
+  "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
+  "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
+  "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery"
 }

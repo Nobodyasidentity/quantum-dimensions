@@ -4,6 +4,7 @@
 package net.mcreator.quantumdimensions.init;
 
 import net.mcreator.quantumdimensions.fluid.BeanSoupFluid;
+import net.mcreator.quantumdimensions.block.NotQuiteWaterBlock;
 
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
@@ -12,6 +13,7 @@ import net.fabricmc.api.EnvType;
 public class QuantumDimensionsModBlocksRenderers {
 	public static void clientLoad() {
 		BeanSoupFluid.registerRenderLayer();
+		NotQuiteWaterBlock.registerRenderLayer();
 	}
 	// Start of user code block custom block renderers
 	// End of user code block custom block renderers

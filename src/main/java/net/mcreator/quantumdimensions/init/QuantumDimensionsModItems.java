@@ -37,6 +37,7 @@ public class QuantumDimensionsModItems {
 	public static Item CASSETTE_ONLY_YOU;
 	public static Item MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR;
 	public static Item MUSIC_DISC_HIGHSCORE;
+	public static Item NOT_QUITE_WATER;
 
 	public static void load() {
 		TESSERACT = register("tesseract", TesseractItem::new);
@@ -57,6 +58,7 @@ public class QuantumDimensionsModItems {
 		CASSETTE_ONLY_YOU = register("cassette_only_you", CassetteOnlyYouItem::new);
 		MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR = register("music_disc_dream_sweet_in_sea_major", MusicDiscDreamSweetInSeaMajorItem::new);
 		MUSIC_DISC_HIGHSCORE = register("music_disc_highscore", MusicDiscHighscoreItem::new);
+		NOT_QUITE_WATER = block(QuantumDimensionsModBlocks.NOT_QUITE_WATER, "not_quite_water", new Item.Properties().rarity(Rarity.UNCOMMON));
 	}
 
 	// Start of user code block custom items

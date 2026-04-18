@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_void"
+    },
+    "title": {
+      "translate": "advancements.fell_on_not_quite_water_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.fell_on_not_quite_water_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "fell_on_not_quite_water_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "quantum_dimensions:enter_the_27th_dimension"
+}

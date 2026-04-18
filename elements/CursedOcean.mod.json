@@ -7,7 +7,7 @@
       "value": "Blocks.WATER"
     },
     "undergroundBlock": {
-      "value": "Blocks.WATER"
+      "value": "CUSTOM:NotQuiteWater"
     },
     "underwaterBlock": {
       "value": "Blocks.WATER"
@@ -25,9 +25,9 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "ASH"
+      "value": "DRIP_WATER"
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
@@ -90,9 +90,9 @@
     "spawnSwampHut": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
-    "spawnShipwreck": false,
+    "spawnShipwreck": true,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,

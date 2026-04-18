@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "quantum_dimensions:item/not_quite_water",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 3694022
+      }
+    ]
+  }
+}

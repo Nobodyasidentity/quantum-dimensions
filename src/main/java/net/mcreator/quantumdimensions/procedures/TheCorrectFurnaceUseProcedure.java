@@ -32,12 +32,20 @@ public class TheCorrectFurnaceUseProcedure {
 			_level.addFreshEntity(entityToSpawn_2);
 		}
 		if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _level) {
-			AdvancementHolder _adv3 = _level.getServer().getAdvancements().get(ResourceLocation.parse("quantum_dimensions:get_the_correct_furnace"));
+			AdvancementHolder _adv3 = _level.getServer().getAdvancements().get(ResourceLocation.parse("quantum_dimensions:quantum_dimensions_advancements"));
 			if (_adv3 != null) {
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv3);
 				if (!_ap.isDone()) {
 					for (String criteria : _ap.getRemainingCriteria())
 						_player.getAdvancements().award(_adv3, criteria);
+				}
+			}
+			AdvancementHolder _adv4 = _level.getServer().getAdvancements().get(ResourceLocation.parse("quantum_dimensions:get_the_correct_furnace"));
+			if (_adv4 != null) {
+				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv4);
+				if (!_ap.isDone()) {
+					for (String criteria : _ap.getRemainingCriteria())
+						_player.getAdvancements().award(_adv4, criteria);
 				}
 			}
 		}

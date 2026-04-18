@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "quantum_dimensions:screens/the27thdimensionadvancements",
+    "icon": {
+      "id": "quantum_dimensions:tesseract"
+    },
+    "title": {
+      "translate": "advancements.quantum_dimensions_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.quantum_dimensions_advancements.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "quantum_dimensions_advancements_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -12,6 +12,7 @@ import net.minecraft.core.registries.Registries;
 
 import net.mcreator.quantumdimensions.block.TheCorrectFurnaceBlock;
 import net.mcreator.quantumdimensions.block.QuantumMachineBlock;
+import net.mcreator.quantumdimensions.block.NotQuiteWaterBlock;
 import net.mcreator.quantumdimensions.block.HellrackBlock;
 import net.mcreator.quantumdimensions.block.BeanSoupBlock;
 import net.mcreator.quantumdimensions.QuantumDimensionsMod;
@@ -23,17 +24,23 @@ public class QuantumDimensionsModBlocks {
 	public static Block THE_CORRECT_FURNACE;
 	public static Block HELLRACK;
 	public static Block BEAN_SOUP;
+	public static Block NOT_QUITE_WATER;
 
 	public static void load() {
 		QUANTUM_MACHINE = register("quantum_machine", QuantumMachineBlock::new);
 		THE_CORRECT_FURNACE = register("the_correct_furnace", TheCorrectFurnaceBlock::new);
 		HELLRACK = register("hellrack", HellrackBlock::new);
 		BEAN_SOUP = register("bean_soup", BeanSoupBlock::new);
+		NOT_QUITE_WATER = register("not_quite_water", NotQuiteWaterBlock::new);
 	}
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 	private static <B extends Block> B register(String name, Function<BlockBehaviour.Properties, B> supplier) {
 		return (B) Blocks.register(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(QuantumDimensionsMod.MODID, name)), (Function<BlockBehaviour.Properties, Block>) supplier, BlockBehaviour.Properties.of());
+	}
+
+	public static void clientLoad() {
+		NotQuiteWaterBlock.blockColorLoad();
 	}
 }
