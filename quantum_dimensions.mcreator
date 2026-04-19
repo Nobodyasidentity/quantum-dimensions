@@ -578,10 +578,10 @@
       "registry_name": "music_disc_slash_inferno",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscSlashInfernoItem.java",
-          "src/main/resources/assets/quantum_dimensions/items/music_disc_slash_inferno.json",
+          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_slash_inferno.json",
           "src/main/resources/assets/quantum_dimensions/models/item/music_disc_slash_inferno.json",
-          "src/main/resources/data/quantum_dimensions/jukebox_song/music_disc_slash_inferno.json"
+          "src/main/resources/assets/quantum_dimensions/items/music_disc_slash_inferno.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/MusicDiscSlashInfernoItem.java"
         ]
       },
       "path": "~/music_discs"

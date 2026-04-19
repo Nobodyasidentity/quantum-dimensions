@@ -10,6 +10,6 @@ import net.mcreator.quantumdimensions.QuantumDimensionsMod;
 
 public class MusicDiscSlashInfernoItem extends Item {
 	public MusicDiscSlashInfernoItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.RARE).stacksTo(1).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(QuantumDimensionsMod.MODID, "music_disc_slash_inferno"))));
+		super(properties.rarity(Rarity.RARE).stacksTo(1).fireResistant().jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(QuantumDimensionsMod.MODID, "music_disc_slash_inferno"))));
 	}
 }

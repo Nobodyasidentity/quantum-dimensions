@@ -25,7 +25,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "isPiglinCurrency": false,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
