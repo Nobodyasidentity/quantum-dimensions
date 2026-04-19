@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "quantum_dimensions",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "name": "Quantum Dimensions",
   "description": "Travel to different dimensions and discover new op entities, blocks and items",
   "authors": [

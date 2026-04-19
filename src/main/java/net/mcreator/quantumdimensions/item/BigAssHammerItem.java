@@ -18,16 +18,16 @@ import net.mcreator.quantumdimensions.procedures.BigAssHammerRightclickedProcedu
 import net.mcreator.quantumdimensions.procedures.BigAssHammerLivingEntityIsHitWithToolProcedure;
 
 public class BigAssHammerItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1337, 4f, 0, 2, TagKey.create(Registries.ITEM, ResourceLocation.parse("quantum_dimensions:big_ass_hammer_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1337, 4f, 0, 5, TagKey.create(Registries.ITEM, ResourceLocation.parse("quantum_dimensions:big_ass_hammer_repair_items")));
 
 	public BigAssHammerItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 9f, -3f).rarity(Rarity.RARE).fireResistant());
+		super(properties.sword(TOOL_MATERIAL, 9f, -2.9f).rarity(Rarity.RARE).fireResistant());
 	}
 
 	@Override
 	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		super.hurtEnemy(itemstack, entity, sourceentity);
-		BigAssHammerLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
+		BigAssHammerLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 
 	@Override

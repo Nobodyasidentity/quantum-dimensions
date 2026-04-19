@@ -1,0 +1,22 @@
+{
+  "_fv": 85,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Mjölner",
+    "supportedSlots": "mainhand",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:BigAssHammer"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}

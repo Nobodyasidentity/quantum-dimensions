@@ -501,6 +501,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -803,6 +807,19 @@
         ]
       },
       "path": "~/not-quite-water"
+    },
+    {
+      "name": "Mjolner",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjolner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/enchantment/mjolner.json"
+        ]
+      },
+      "path": "~/big_ass_hammer"
     }
   ],
   "variable_elements": [],
@@ -914,6 +931,18 @@
     ],
     "BLOCKS:minecraft:climbable": [
       "~CUSTOM:NotQuiteWater"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Mjolner"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Mjolner"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BigAssHammer"
+    ],
+    "ITEMS:quantum_dimensions:big_ass_hammer_repair_items": [
+      "~Items.IRON_INGOT"
     ]
   },
   "tab_element_order": {
@@ -1003,7 +1032,8 @@
       "advancements.quantum_dimensions_advancements.descr": "Travel to different dimensions and discover new op entities, blocks and items",
       "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
       "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
-      "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery"
+      "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery",
+      "enchantment.quantum_dimensions.mjolner": "Mjölner"
     },
     "sv_se": {
       "item_group.quantum_dimensions.quantum_dimensions": "Kvantum Dimensioner",
@@ -1065,11 +1095,12 @@
       "subtitles.music_disc.highscore": "Panda Eyes - Highscore",
       "item.quantum_dimensions.music_disc_highscore": "Musikskiva",
       "item.quantum_dimensions.music_disc_highscore.desc": "ミラクルミュージカル - Dream Sweet in Sea Major",
-      "advancements.quantum_dimensions_advancements.title": "Quantum Dimensions",
-      "advancements.quantum_dimensions_advancements.descr": "Travel to different dimensions and discover new op entities, blocks and items",
+      "advancements.quantum_dimensions_advancements.title": "Kvantum Dimensioner",
+      "advancements.quantum_dimensions_advancements.descr": "Res till olika dimensioner och upptäck nya op entiteter, block och föremål",
       "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
       "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
-      "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery"
+      "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery",
+      "enchantment.quantum_dimensions.mjolner": "Mjölner"
     }
   },
   "metadata": {
