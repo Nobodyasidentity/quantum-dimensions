@@ -90,7 +90,8 @@
         ],
         "files": [
           "src/main/java/net/mcreator/quantumdimensions/procedures/QuantumMachineProcedureProcedure.java"
-        ]
+        ],
+        "return_type": "logic"
       },
       "path": "~/quantum_machine"
     },
@@ -899,7 +900,7 @@
           "src/main/resources/assets/quantum_dimensions/models/item/pocket_quantum_machine_gui.json"
         ]
       },
-      "path": "~/quantum_machine"
+      "path": "~/pocket_quantum_machine"
     },
     {
       "name": "CraftPocketQuatumMachine",
@@ -913,7 +914,55 @@
           "src/main/resources/data/quantum_dimensions/advancement/recipes/craft_pocket_quatum_machine.json"
         ]
       },
-      "path": "~/quantum_machine"
+      "path": "~/pocket_quantum_machine"
+    },
+    {
+      "name": "KeyPocketQuantumMachine",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_pocket_quantum_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/network/KeyPocketQuantumMachineMessage.java"
+        ]
+      },
+      "path": "~/pocket_quantum_machine"
+    },
+    {
+      "name": "TriggerPocketQuantumMachine",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trigger_pocket_quantum_machine",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/procedures/TriggerPocketQuantumMachineProcedure.java"
+        ]
+      },
+      "path": "~/pocket_quantum_machine"
     }
   ],
   "variable_elements": [],
@@ -1150,7 +1199,9 @@
       "item.quantum_dimensions.hell_gold": "Hell Gold Ore",
       "item.quantum_dimensions.hell_quartz_ore": "Hell Quartz Ore",
       "item.quantum_dimensions.dead_tesseract": "Dead Tesseract",
-      "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine"
+      "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine",
+      "key.quantum_dimensions.key_pocket_quantum_machine": "Trigger Pocket Quantum Machine",
+      "key.categories.quantum_dimensions": "Quantum Dimensions"
     },
     "sv_se": {
       "item_group.quantum_dimensions.quantum_dimensions": "Kvantum Dimensioner",
@@ -1222,7 +1273,9 @@
       "item.quantum_dimensions.hell_gold": "Helvetesguldmalm",
       "item.quantum_dimensions.hell_quartz_ore": "Helveteskvartsmalm",
       "item.quantum_dimensions.dead_tesseract": "Död Tesserakt",
-      "item.quantum_dimensions.pocket_quantum_machine": "Fick-Kvantum Maskin"
+      "item.quantum_dimensions.pocket_quantum_machine": "Fick-Kvantum Maskin",
+      "key.quantum_dimensions.key_pocket_quantum_machine": "Trigger Fick-Kvantum Maskin",
+      "key.categories.quantum_dimensions": "Kvantum Dimensioner"
     }
   },
   "metadata": {
@@ -1233,6 +1286,8 @@
       "src/main/java/net/mcreator/quantumdimensions/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModMenus.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModScreens.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModKeyMappingsServer.java",
+      "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModKeyMappings.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModProcedures.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocksRenderers.java",
       "src/main/java/net/mcreator/quantumdimensions/init/QuantumDimensionsModBlocks.java",
@@ -1307,13 +1362,17 @@
       {
         "name": "not-quite-water",
         "children": []
+      },
+      {
+        "name": "pocket_quantum_machine",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "quantum_dimensions",
     "modName": "Quantum Dimensions",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "Travel to different dimensions and discover new op entities, blocks and items",
     "author": "Nobodyasidentity",
     "websiteURL": "https://nobodyasidentity.github.io",

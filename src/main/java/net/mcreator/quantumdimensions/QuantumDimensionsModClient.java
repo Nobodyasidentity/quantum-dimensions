@@ -18,6 +18,7 @@ public class QuantumDimensionsModClient implements ClientModInitializer {
 		QuantumDimensionsModDimensionsEffects.clientLoad();
 		QuantumDimensionsModScreens.clientLoad();
 		QuantumDimensionsModMenus.clientLoad();
+		QuantumDimensionsModKeyMappings.clientLoad();
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

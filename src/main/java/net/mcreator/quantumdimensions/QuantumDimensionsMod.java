@@ -45,6 +45,7 @@ public class QuantumDimensionsMod implements ModInitializer {
 		QuantumDimensionsModItems.load();
 		QuantumDimensionsModMenus.load();
 		QuantumDimensionsModProcedures.load();
+		QuantumDimensionsModKeyMappingsServer.serverLoad();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init

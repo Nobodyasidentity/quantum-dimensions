@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "Trigger Pocket Quantum Machine",
+    "keyBindingCategoryKey": "quantum_dimensions",
+    "onKeyPressed": {
+      "name": "TriggerPocketQuantumMachine"
+    }
+  }
+}

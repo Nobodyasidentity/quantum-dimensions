@@ -68,5 +68,7 @@
   "item.quantum_dimensions.hell_gold": "Hell Gold Ore",
   "item.quantum_dimensions.hell_quartz_ore": "Hell Quartz Ore",
   "item.quantum_dimensions.dead_tesseract": "Dead Tesseract",
-  "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine"
+  "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine",
+  "key.quantum_dimensions.key_pocket_quantum_machine": "Trigger Pocket Quantum Machine",
+  "key.categories.quantum_dimensions": "Quantum Dimensions"
 }

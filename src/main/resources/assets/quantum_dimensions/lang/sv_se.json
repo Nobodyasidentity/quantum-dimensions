@@ -68,5 +68,7 @@
   "item.quantum_dimensions.hell_gold": "Helvetesguldmalm",
   "item.quantum_dimensions.hell_quartz_ore": "Helveteskvartsmalm",
   "item.quantum_dimensions.dead_tesseract": "Död Tesserakt",
-  "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine"
+  "item.quantum_dimensions.pocket_quantum_machine": "Fick-Kvantum Maskin",
+  "key.quantum_dimensions.key_pocket_quantum_machine": "Trigger Fick-Kvantum Maskin",
+  "key.categories.quantum_dimensions": "Kvantum Dimensioner"
 }
