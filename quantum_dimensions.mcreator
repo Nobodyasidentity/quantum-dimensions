@@ -90,8 +90,7 @@
         ],
         "files": [
           "src/main/java/net/mcreator/quantumdimensions/procedures/QuantumMachineProcedureProcedure.java"
-        ],
-        "return_type": "logic"
+        ]
       },
       "path": "~/quantum_machine"
     },

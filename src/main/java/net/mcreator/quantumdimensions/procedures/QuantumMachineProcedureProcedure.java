@@ -31,9 +31,9 @@ import java.util.Set;
 public class QuantumMachineProcedureProcedure {
 	public static boolean eventResult = true;
 
-	public static boolean execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
-			return false;
+			return;
 		ItemStack item = ItemStack.EMPTY;
 		item = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof QuantumDimensionsModMenus.MenuAccessor _menu0 ? _menu0.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
 		if (entity instanceof Player _player && _player.containerMenu instanceof QuantumDimensionsModMenus.MenuAccessor _menu) {
@@ -121,11 +121,9 @@ public class QuantumMachineProcedureProcedure {
 				entityToSpawn_12.snapTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));;
 				_level.addFreshEntity(entityToSpawn_12);
 			}
-			return false;
 		}
 		if (entity instanceof LocalPlayer _player) {
 			_player.closeContainer();
 		}
-		return true;
 	}
 }
