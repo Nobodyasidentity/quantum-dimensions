@@ -63,5 +63,10 @@
   "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
   "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
   "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery",
-  "enchantment.quantum_dimensions.mjolner": "Mjölner"
+  "enchantment.quantum_dimensions.mjolner": "Mjölner",
+  "biome.quantum_dimensions.hell_wastes": "Helvetesödemark",
+  "item.quantum_dimensions.hell_gold": "Helvetesguldmalm",
+  "item.quantum_dimensions.hell_quartz_ore": "Helveteskvartsmalm",
+  "item.quantum_dimensions.dead_tesseract": "Död Tesserakt",
+  "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine"
 }

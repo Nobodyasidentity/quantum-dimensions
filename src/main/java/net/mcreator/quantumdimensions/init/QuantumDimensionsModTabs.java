@@ -35,9 +35,12 @@ public class QuantumDimensionsModTabs {
 					tabData.accept(QuantumDimensionsModItems.BIG_ASS_HAMMER);
 					tabData.accept(QuantumDimensionsModItems.ZOMBIE_PIGMAN_SPAWN_EGG);
 					tabData.accept(QuantumDimensionsModItems.BEAN_SOUP_BUCKET);
-					tabData.accept(QuantumDimensionsModBlocks.NOT_QUITE_WATER.asItem());
-					tabData.accept(QuantumDimensionsModBlocks.THE_CORRECT_FURNACE.asItem());
 					tabData.accept(QuantumDimensionsModBlocks.HELLRACK.asItem());
+					tabData.accept(QuantumDimensionsModBlocks.HELL_GOLD.asItem());
+					tabData.accept(QuantumDimensionsModBlocks.HELL_QUARTZ_ORE.asItem());
+					tabData.accept(QuantumDimensionsModBlocks.THE_CORRECT_FURNACE.asItem());
+					tabData.accept(QuantumDimensionsModBlocks.NOT_QUITE_WATER.asItem());
+					tabData.accept(QuantumDimensionsModItems.POCKET_QUANTUM_MACHINE);
 				}).build());
 	}
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "minecraft:end_stone",
+    "quantum_dimensions:hellrack",
     "quantum_dimensions:not_quite_water",
     "minecraft:water",
     "minecraft:stone"

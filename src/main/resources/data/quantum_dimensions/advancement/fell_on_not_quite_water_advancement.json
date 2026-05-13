@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:structure_void"
+      "id": "minecraft:skeleton_skull"
     },
     "title": {
       "translate": "advancements.fell_on_not_quite_water_advancement.title"

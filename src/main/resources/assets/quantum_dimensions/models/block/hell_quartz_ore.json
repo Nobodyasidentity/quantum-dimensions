@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "quantum_dimensions:block/hell_quartz_ore",
+    "particle": "quantum_dimensions:block/hell_quartz_ore"
+  },
+  "render_type": "solid"
+}

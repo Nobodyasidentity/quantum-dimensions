@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "nether"
+        "value": "CUSTOM:HellWastes"
       }
     ],
     "biomesInDimensionCaves": [],
@@ -33,7 +33,7 @@
     "hasFixedTime": false,
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
-    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "infiniburnTag": "minecraft:infiniburn_nether",
     "bedWorks": false,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,

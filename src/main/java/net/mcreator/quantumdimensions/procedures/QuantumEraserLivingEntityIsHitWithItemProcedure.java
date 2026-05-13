@@ -13,6 +13,7 @@ public class QuantumEraserLivingEntityIsHitWithItemProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide()) {
 			_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 12000, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 12000, 1));
 			_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 12000, 1));
 			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 12000, 1));
 		}

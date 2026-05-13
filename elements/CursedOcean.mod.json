@@ -22,9 +22,9 @@
       "value": ""
     },
     "moodSound": {
-      "value": ""
+      "value": "CUSTOM:music_disc.dream_sweet_in_sea_major"
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 9000,
     "spawnParticles": true,
     "particleToSpawn": {
       "value": "DRIP_WATER"

@@ -5,7 +5,7 @@
     "achievementName": "What?",
     "achievementDescription": "§fGet a Tesseract",
     "achievementIcon": {
-      "value": "CUSTOM:Tesseract"
+      "value": "CUSTOM:DeadTesseract"
     },
     "background": "Default",
     "disableDisplay": false,

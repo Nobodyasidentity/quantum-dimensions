@@ -10,11 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.quantumdimensions.block.TheCorrectFurnaceBlock;
-import net.mcreator.quantumdimensions.block.QuantumMachineBlock;
-import net.mcreator.quantumdimensions.block.NotQuiteWaterBlock;
-import net.mcreator.quantumdimensions.block.HellrackBlock;
-import net.mcreator.quantumdimensions.block.BeanSoupBlock;
+import net.mcreator.quantumdimensions.block.*;
 import net.mcreator.quantumdimensions.QuantumDimensionsMod;
 
 import java.util.function.Function;
@@ -25,6 +21,8 @@ public class QuantumDimensionsModBlocks {
 	public static Block HELLRACK;
 	public static Block BEAN_SOUP;
 	public static Block NOT_QUITE_WATER;
+	public static Block HELL_GOLD;
+	public static Block HELL_QUARTZ_ORE;
 
 	public static void load() {
 		QUANTUM_MACHINE = register("quantum_machine", QuantumMachineBlock::new);
@@ -32,6 +30,8 @@ public class QuantumDimensionsModBlocks {
 		HELLRACK = register("hellrack", HellrackBlock::new);
 		BEAN_SOUP = register("bean_soup", BeanSoupBlock::new);
 		NOT_QUITE_WATER = register("not_quite_water", NotQuiteWaterBlock::new);
+		HELL_GOLD = register("hell_gold", HellGoldBlock::new);
+		HELL_QUARTZ_ORE = register("hell_quartz_ore", HellQuartzOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

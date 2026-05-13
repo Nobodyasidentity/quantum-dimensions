@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "quantum_dimensions:quantum_machine",
+    "quantum_dimensions:not_quite_water",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "quantum_dimensions:pocket_quantum_machine",
+    "count": 1
+  }
+}

@@ -3,6 +3,12 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
+    "mood_sound": {
+      "sound": "quantum_dimensions:music_disc.dream_sweet_in_sea_major",
+      "tick_delay": 9000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
     "particle": {
       "options": {
         "type": "dripping_water"

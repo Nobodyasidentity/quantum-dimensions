@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -23,7 +23,21 @@ import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
-public class NotQuiteWaterBlock extends Block {
+import com.mojang.serialization.MapCodec;
+
+public class NotQuiteWaterBlock extends FallingBlock {
+	public static final MapCodec<NotQuiteWaterBlock> CODEC = simpleCodec(NotQuiteWaterBlock::new);
+
+	@Override
+	public MapCodec<NotQuiteWaterBlock> codec() {
+		return CODEC;
+	}
+
+	@Override
+	public int getDustColor(BlockState blockstate, BlockGetter world, BlockPos pos) {
+		return blockstate.getMapColor(world, pos).col;
+	}
+
 	public NotQuiteWaterBlock(BlockBehaviour.Properties properties) {
 		super(properties.mapColor(MapColor.WATER).sound(SoundType.SLIME_BLOCK).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.CHIME));
 	}

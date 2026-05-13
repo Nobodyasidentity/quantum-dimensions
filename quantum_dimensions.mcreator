@@ -820,6 +820,100 @@
         ]
       },
       "path": "~/big_ass_hammer"
+    },
+    {
+      "name": "HellWastes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hell_wastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/worldgen/biome/hell_wastes.json"
+        ]
+      },
+      "path": "~/hell"
+    },
+    {
+      "name": "HellGold",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/items/hell_gold.json",
+          "src/main/java/net/mcreator/quantumdimensions/block/HellGoldBlock.java",
+          "src/main/resources/assets/quantum_dimensions/models/block/hell_gold.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/hell_gold.json",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/hell_gold.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/hell_gold.json"
+        ]
+      },
+      "path": "~/hell"
+    },
+    {
+      "name": "HellQuartzOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell_quartz_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/block/HellQuartzOreBlock.java",
+          "src/main/resources/data/quantum_dimensions/loot_table/blocks/hell_quartz_ore.json",
+          "src/main/resources/assets/quantum_dimensions/models/block/hell_quartz_ore.json",
+          "src/main/resources/assets/quantum_dimensions/blockstates/hell_quartz_ore.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/hell_quartz_ore.json",
+          "src/main/resources/assets/quantum_dimensions/items/hell_quartz_ore.json"
+        ]
+      },
+      "path": "~/hell"
+    },
+    {
+      "name": "DeadTesseract",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tesseract",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/quantum_dimensions/models/item/dead_tesseract.json",
+          "src/main/java/net/mcreator/quantumdimensions/item/DeadTesseractItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/dead_tesseract.json"
+        ]
+      },
+      "path": "~/tesseract"
+    },
+    {
+      "name": "PocketQuantumMachine",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pocket_quantum_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/quantumdimensions/item/PocketQuantumMachineItem.java",
+          "src/main/resources/assets/quantum_dimensions/items/pocket_quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/pocket_quantum_machine.json",
+          "src/main/resources/assets/quantum_dimensions/models/item/pocket_quantum_machine_gui.json"
+        ]
+      },
+      "path": "~/quantum_machine"
+    },
+    {
+      "name": "CraftPocketQuatumMachine",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pocket_quatum_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/quantum_dimensions/recipe/craft_pocket_quatum_machine.json",
+          "src/main/resources/data/quantum_dimensions/advancement/recipes/craft_pocket_quatum_machine.json"
+        ]
+      },
+      "path": "~/quantum_machine"
     }
   ],
   "variable_elements": [],
@@ -899,9 +993,13 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HellQuartzOre",
+      "~CUSTOM:HellGold",
       "~CUSTOM:Hellrack"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Hellrack",
+      "~Blocks.END_STONE",
       "~CUSTOM:NotQuiteWater",
       "~Blocks.WATER",
       "~Blocks.STONE#0"
@@ -910,6 +1008,8 @@
       "~CUSTOM:BeanSoup"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HellQuartzOre",
+      "~CUSTOM:HellGold",
       "~CUSTOM:Hellrack"
     ],
     "ITEMS:minecraft:music_discs": [
@@ -943,6 +1043,15 @@
     ],
     "ITEMS:quantum_dimensions:big_ass_hammer_repair_items": [
       "~Items.IRON_INGOT"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:HellWastes"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:HellWastes"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:ZombiePigman"
     ]
   },
   "tab_element_order": {
@@ -962,9 +1071,12 @@
       "BigAssHammer",
       "ZombiePigman",
       "BeanSoup",
-      "NotQuiteWater",
+      "Hellrack",
+      "HellGold",
+      "HellQuartzOre",
       "TheCorrectFurnace",
-      "Hellrack"
+      "NotQuiteWater",
+      "PocketQuantumMachine"
     ]
   },
   "language_map": {
@@ -1033,7 +1145,12 @@
       "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
       "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
       "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery",
-      "enchantment.quantum_dimensions.mjolner": "Mjölner"
+      "enchantment.quantum_dimensions.mjolner": "Mjölner",
+      "biome.quantum_dimensions.hell_wastes": "Hell Wastes",
+      "item.quantum_dimensions.hell_gold": "Hell Gold Ore",
+      "item.quantum_dimensions.hell_quartz_ore": "Hell Quartz Ore",
+      "item.quantum_dimensions.dead_tesseract": "Dead Tesseract",
+      "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine"
     },
     "sv_se": {
       "item_group.quantum_dimensions.quantum_dimensions": "Kvantum Dimensioner",
@@ -1100,7 +1217,12 @@
       "item.quantum_dimensions.not_quite_water": "Not-Quite-Water™",
       "advancements.fell_on_not_quite_water_advancement.descr": "This is going down in history",
       "advancements.fell_on_not_quite_water_advancement.title": "Here\u0027s a little lesson in trickery",
-      "enchantment.quantum_dimensions.mjolner": "Mjölner"
+      "enchantment.quantum_dimensions.mjolner": "Mjölner",
+      "biome.quantum_dimensions.hell_wastes": "Helvetesödemark",
+      "item.quantum_dimensions.hell_gold": "Helvetesguldmalm",
+      "item.quantum_dimensions.hell_quartz_ore": "Helveteskvartsmalm",
+      "item.quantum_dimensions.dead_tesseract": "Död Tesserakt",
+      "item.quantum_dimensions.pocket_quantum_machine": "Pocket Quantum Machine"
     }
   },
   "metadata": {

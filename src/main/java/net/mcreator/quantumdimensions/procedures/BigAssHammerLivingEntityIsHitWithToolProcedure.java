@@ -30,21 +30,14 @@ public class BigAssHammerLivingEntityIsHitWithToolProcedure {
 				entityToSpawn_2.snapTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));;
 				_level.addFreshEntity(entityToSpawn_2);
 			}
-		} else {
-			if (world instanceof ServerLevel _level) {
-				LightningBolt entityToSpawn_3 = EntityType.LIGHTNING_BOLT.create(_level, EntitySpawnReason.TRIGGERED);
-				entityToSpawn_3.snapTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
-				entityToSpawn_3.setVisualOnly(true);
-				_level.addFreshEntity(entityToSpawn_3);
-			}
 		}
 		if (!entity.isAlive()) {
 			if (entity instanceof Blaze) {
 				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn_6 = new ItemEntity(_level, x, y, z, new ItemStack(QuantumDimensionsModItems.MUSIC_DISC_SLASH_INFERNO));
-					entityToSpawn_6.setPickUpDelay(10);
-					entityToSpawn_6.setUnlimitedLifetime();
-					_level.addFreshEntity(entityToSpawn_6);
+					ItemEntity entityToSpawn_5 = new ItemEntity(_level, x, y, z, new ItemStack(QuantumDimensionsModItems.MUSIC_DISC_SLASH_INFERNO));
+					entityToSpawn_5.setPickUpDelay(10);
+					entityToSpawn_5.setUnlimitedLifetime();
+					_level.addFreshEntity(entityToSpawn_5);
 				}
 			}
 		} else {

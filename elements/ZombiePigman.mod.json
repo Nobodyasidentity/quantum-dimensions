@@ -136,16 +136,13 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningCondition": {
-      "name": "ZombiePigmanNaturalEntitySpawningCondition"
-    },
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
-        "value": "nether"
+        "value": "CUSTOM:HellWastes"
       }
     ],
     "spawnInDungeons": false,

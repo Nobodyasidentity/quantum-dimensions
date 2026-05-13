@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "quantum_dimensions:tesseract"
+      "id": "quantum_dimensions:dead_tesseract"
     },
     "title": {
       "translate": "advancements.get_tesseract.title"

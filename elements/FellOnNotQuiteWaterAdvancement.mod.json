@@ -5,7 +5,7 @@
     "achievementName": "Here's a little lesson in trickery",
     "achievementDescription": "This is going down in history",
     "achievementIcon": {
-      "value": "Blocks.STRUCTURE_VOID"
+      "value": "Blocks.SKULL#0"
     },
     "background": "Default",
     "disableDisplay": false,

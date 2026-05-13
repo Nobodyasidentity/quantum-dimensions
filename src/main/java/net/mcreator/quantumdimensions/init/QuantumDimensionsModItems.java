@@ -38,6 +38,10 @@ public class QuantumDimensionsModItems {
 	public static Item MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR;
 	public static Item MUSIC_DISC_HIGHSCORE;
 	public static Item NOT_QUITE_WATER;
+	public static Item HELL_GOLD;
+	public static Item HELL_QUARTZ_ORE;
+	public static Item DEAD_TESSERACT;
+	public static Item POCKET_QUANTUM_MACHINE;
 
 	public static void load() {
 		TESSERACT = register("tesseract", TesseractItem::new);
@@ -59,6 +63,10 @@ public class QuantumDimensionsModItems {
 		MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR = register("music_disc_dream_sweet_in_sea_major", MusicDiscDreamSweetInSeaMajorItem::new);
 		MUSIC_DISC_HIGHSCORE = register("music_disc_highscore", MusicDiscHighscoreItem::new);
 		NOT_QUITE_WATER = block(QuantumDimensionsModBlocks.NOT_QUITE_WATER, "not_quite_water", new Item.Properties().rarity(Rarity.UNCOMMON));
+		HELL_GOLD = block(QuantumDimensionsModBlocks.HELL_GOLD, "hell_gold");
+		HELL_QUARTZ_ORE = block(QuantumDimensionsModBlocks.HELL_QUARTZ_ORE, "hell_quartz_ore");
+		DEAD_TESSERACT = register("dead_tesseract", DeadTesseractItem::new);
+		POCKET_QUANTUM_MACHINE = register("pocket_quantum_machine", PocketQuantumMachineItem::new);
 	}
 
 	// Start of user code block custom items
